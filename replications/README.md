@@ -11,7 +11,7 @@
 | DeepJIT: an end-to-end deep learning framework for just-in-time defect prediction                              | 2019 | https://github.com/AnonymousAccountConf/            |                |
 | Fine-grained just-in-time defect prediction                                                                    | 2019 |                                                     | not found      |
 | Class imbalance evolution and verification latency in just-in-time software defect prediction                  | 2019 | https://doi.org/10.5281/zenodo.2555695              |                |
-| Effort-Aware Tri-Training for Semi-supervised Just-in-Time Defect Prediction                                   | 2019 | https://github.com/NJUST-IDAM/EATT                  |identical to "a"|
+| Effort-Aware Tri-Training for Semi-supervised Just-in-Time Defect Prediction                                   | 2019 | https://github.com/NJUST-IDAM/EATT                  |identical to **a**|
 | Revisiting supervised and unsupervised models for effort-aware just-in-time defect prediction                  | 2018 | https://doi.org/10.5281/zenodo.1432582              |                |
 | Bridging effort-aware prediction and strong classification: a just-intime software defect prediction study     | 2018 | https://github.com/yuchen1990/EAposter              |                |
 | MULTI: Multi-objective effort-aware just-in-time software defect prediction                                    | 2017 | https://github.com/Hecoz/Multi-Project-Learning     |                |
