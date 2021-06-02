@@ -1,0 +1,353 @@
+\documentclass[acmsmall]{acmart}
+%
+% framed
+%
+\usepackage{framed}
+%
+% math indicator function
+%
+\usepackage{bbm}
+
+%
+% multirow multicolumn table
+%
+\usepackage{multirow}
+%
+% makecell
+%
+\usepackage{makecell}
+%
+% for lines in tables
+%
+\usepackage{hhline}
+%
+% added for accomodating long tables
+%
+\usepackage{longtable}
+%
+% diagbox in table
+%
+\usepackage{diagbox}
+%
+% make fonts of all tables smaller
+%
+% https://tex.stackexchange.com/questions/286733/change-content-font-in-tabular-environments
+\makeatletter
+\newcommand*\my@starttable[1][]{%
+	  \@float{table}[#1]\footnotesize
+		}
+		\patchcmd{\table}{\@float{table}}{\my@starttable}{\PackageInfo{mysty}{Table environment patched successfully.}}{\PackageWarning{mysty}{Could not patch table environment.}}
+\makeatother
+
+\let\oldlongtable\longtable
+\def\longtable{\small\oldlongtable}
+
+%
+% for program listing
+%
+\usepackage{listings}
+% styles are in newstyles.tex
+
+%
+% strip on two columns
+%
+\usepackage{cuted}
+
+%
+% for each list numbering
+%
+\usepackage{enumitem}
+
+
+%
+% graphs
+%
+\usepackage{tikz}
+\usetikzlibrary{fit,arrows,arrows.meta,shapes,shapes.geometric,positioning,calc,shadows,trees}
+
+%
+% subfigures
+%
+\usepackage[labelformat=simple]{subcaption}
+\renewcommand\thesubfigure{(\alph{subfigure})}
+%
+% easy quotations
+%
+\usepackage[autostyle]{csquotes}
+
+%
+% code listing
+%
+\usepackage{listings}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+\setcopyright{acmcopyright}
+\copyrightyear{2018}
+\acmYear{2021}
+\acmDOI{xx.xxxx/xxyyzza.aabbcde}
+
+%%
+%% These commands are for a JOURNAL article.
+\acmJournal{CSUR}
+\acmVolume{Vol}
+\acmNumber{Num}
+\acmArticle{1}
+\acmMonth{5}
+
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+
+\let\Bbbk\relax    % must have this to use todo package; otherwise, a
+\usepackage{todo}  % conflict, which results in a compilation error
+\usepackage{xspace}
+
+\input{newcommands}
+\input{newstyles}
+\graphicspath{ {./reference/} }
+
+% \let\oldparagraph\paragraph
+% \renewcommand{\paragraph}[1]{\noindent\oldparagraph{#1}}
+
+
+\begin{document}
+
+\title{Collections of JIT-SDP Replication Packages and Datasets}
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+\author{Yunhua Zhao}
+\affiliation{%
+        \department{Department of Computer Science}
+        \institution{CUNY Graduate Center}
+  \streetaddress{365 5th Avenue}
+  \city{New York}
+  \state{NY}
+  \country{USA}
+  \postcode{10016}
+}
+\email{yzhao5@gradcenter.cuny.edu}
+
+\author{Kostadin Damevski}
+\affiliation{%
+        \department{Department of Computer Science}
+        \institution{Virginia Commonwealth University}
+  \streetaddress{401 West Main Street}
+  \city{Richmond}
+  \state{VA}
+  \country{USA}
+  \postcode{23284}
+}
+\email{damevski@acm.org}
+
+
+\author{Hui Chen}
+\affiliation{%
+        \department{Department of Computer \& Information Science}
+        \institution{CUNY Brooklyn College}
+  \streetaddress{2900 Bedford Avenue}
+  \city{Brooklyn}
+  \state{NY}
+  \country{USA}
+  \postcode{11210}
+}
+\email{huichen@acm.org}
+\orcid{0000-0002-9840-4876}
+\authornote{The corresponding author}
+\additionalaffiliation{%
+        \institution{CUNY Graduate Center}
+        \department{Department of Computer Science}
+  \streetaddress{365 5th Avenue}
+  \city{New York}
+  \state{NY}
+  \country{USA}
+  \postcode{10016}
+}
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+\renewcommand{\shortauthors}{Zhao, Damevski, and Chen}
+
+
+
+
+\maketitle
+
+\begin{table}[!htbp]
+	\caption{Replication Packages for JIT-SDP Researches}
+	\label{tab:replication}
+	\begin{tabular}{p{1.40in} p{0.20in} p{2.65in} p{0.6in}}
+		\toprule
+		Research & Year & Replication Package & Remark \\
+		\midrule
+		Duan et al.~\cite{duan2021impact} 
+		& 2021
+		& \url{https://github.com/deref007/Duplicate-change-TR}
+		\\
+		
+		Hoang et al.~\cite{hoang2020cc2vec}
+		& 2020
+		& \url{https://github.com/CC2Vec/CC2Vec}
+		\\
+		
+		Trautsch et al.~\cite{trautsch2020static}
+		& 2020
+		& \url{https://doi.org/10.5281/zenodo.3974204}
+		%\url{https://zenodo.org/record/3974204#.YHIprj8pBEY}
+		\\
+		
+		Li et al.~\cite{li2020effort}
+		& 2020
+		& \url{https://github.com/NJUST-IDAM/EATT}
+		\\
+		% conference version of Zhang et al. (2019)
+		
+		Fan et al.~\cite{fan2019impact}
+		& 2019
+		& \url{https://github.com/YuanruiZJU/SZZ-TSE}
+		\\
+		
+		Hoang et al.~\cite{hoang2019deepjit}	
+		& 2019
+		& \url{https://github.com/AnonymousAccountConf/}
+		\\
+		
+		
+		Pascarella et al.~\cite{pascarella2019fine}
+		& 2019
+		&
+		& not found
+		\\
+		
+		Huang et al.~\cite{huang2019revisiting}
+		& 2018
+		& \url{https://doi.org/10.5281/zenodo.1432582}
+		\\
+		
+		Cabral et al.~\cite{cabral2019class}
+		& 2019
+		& \url{https://doi.org/10.5281/zenodo.2555695}
+		\\
+		
+		
+		Zhang et al.~\cite{zhang2019effort}
+		& 2019
+		& \url{https://github.com/NJUST-IDAM/EATT}
+		& identical to Li et al.~\cite{li2020effort}
+		\\
+		
+		
+		Guo et al.~\cite{guo2018bridging}
+		& 2018
+		& \url{https://github.com/yuchen1990/EAposter}
+		\\
+		
+		Chen et al.~\cite{chen2018multi}
+		& 2017
+		& \url{https://github.com/Hecoz/Multi-Project-Learning}
+		\\
+		
+		
+		Fu and Menzies~\cite{fu2017revisiting}
+		& 2017
+		& \url{https://github.com/WeiFoo/RevisitUnsupervised}
+		% snowball
+		\\
+		
+		McIntosh and Kamei~\cite{mcintosh2017fix}
+		& 2017
+		& \url{https://github.com/software-rebels/JITMovingTarget}
+		\\
+		
+		
+		Huang et al.~\cite{huang2017supervised}
+		& 2017
+		& \url{https://doi.org/10.5281/zenodo.836352}
+		\\
+		
+		Yang et al.~\cite{yang2016effort}
+		& 2016
+		& \url{http://ise.nju.edu.cn/yangyibiao/jit.html}
+		& inaccessible %dead link
+		\\
+		
+		Kamei et al.~\cite{kamei2012large}
+		& 2012
+		& \url{http://research.cs.queensu.ca/~kamei/jittse/jit.zip}
+		\\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+
+\begin{table}[!htbp]
+	\caption{Reuse of Replication Package and Tools}
+	\label{tab:reusereppackage}
+	\begin{tabular}{p{1.25in} p{1.25in} p{2.5in}}
+		\toprule
+		\makecell[{{p{1.25in}}}]{Replication Package\\Data and Code} 
+		& \makecell[{{p{1.25in}}}]{Original Research} 
+		& \makecell[{{p{2.50in}}}]{Dependent Research}\\
+		\midrule
+		Kamei-2012 
+		& Kamei et al.~\cite{kamei2012large} 
+		& 
+		Fukushima et al.~\cite{fukushima2014empirical},
+		Yang et al.~\cite{yang2015deep},
+		Kamei et al.~\cite{kamei2016studying},
+		Yang et al.~\cite{yang2016effort},
+		Huang et al.~\cite{huang2017supervised},
+		Liu et al.~\cite{liu2017code}, 
+		Chen et al.~\cite{chen2018multi},
+		Guo et al.~\cite{guo2018bridging},
+		Huang et al.~\cite{huang2019revisiting},
+		Young et al.~\cite{young2018replication}, 
+		Bennin et al.~\cite{bennin2020revisiting},
+		Li et al.~\cite{li2020effort}
+		\\
+		
+		Yang-2016
+		& Yang et al.~\cite{yang2016effort}
+		&   Fu and Menzies~\cite{fu2017revisiting} \\
+		
+		%		Commit Guru & Catolino et al.~\cite{catolino2019cross}\\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+
+
+
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{
+	jitsdp,jitsdp_snowball}
+
+
+\end{document}
