@@ -1,0 +1,51 @@
+% math
+	\newcommand{\cardinality}[1]{\left\vert{#1}\right\vert}
+	\newcommand{\set}[1]{\mathbb{#1}}
+	\newcommand{\vect}[1]{\boldsymbol{\mathbf{#1}}}
+	\newcommand{\mtx}[1]{\mathbf{#1}}
+	\newcommand{\dlist}[1]{\mathbf{#1}}
+	\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+	\newcommand{\idemsg}[1]{\text{\tt \textless {#1}\textgreater}}
+	%\newcommand{\idestate}[1]{\text{\sc \textless {#1}\textgreater}}
+	\newcommand{\idestate}[1]{\text{\sc [{#1}]}}
+	\newcommand{\seqprefix}{\sqsubseteq}
+
+% programming
+	\newcommand{\code}{\texttt}
+	\newcommand{\codesf}{\textsf}
+	\newcommand{\eqcode}[1]{\text{\tt #1}}
+% staistics 
+	\newcommand{\E}[1]{\operatorname{E}\left[#1\right]}
+	\newcommand{\Cov}[1]{\operatorname{Cov}\left[#1\right]} 
+	\newcommand{\Var}[1]{\operatorname{Var}\left[#1\right]}
+% frequently used sets
+	\newcommand{\N}{\mathbb N}
+	\newcommand{\Q}{\mathbb Q}
+	\newcommand{\R}{\mathbb R}
+
+% formal languages
+	\newcommand{\abstr}[1]{\text{\textless #1\textgreater\;}}
+	\newcommand{\term}[1]{\text{\;#1\;}}
+	\newcommand{\attr}[1]{\text{#1}}
+
+	\newcommand{\pd}[1]{{#1}}
+
+	\newcommand{\centercell}[1]{\multicolumn{1}{c}{#1}}
+
+% digital library and search tool
+	\newcounter{dlibc}
+	\setcounter{dlibc}{0} % set initial value
+	\renewcommand{\thedlibc}{\arabic{dlibc}} % set references to \roman
+	\newcommand{\dlref}[1]{\ref{#1}} % reference in brackets
+	\DeclareRobustCommand{\dlitem}{\refstepcounter{dlibc}\thedlibc. }
+
+% model short-name
+	\newcommand{\jitmodel}{\texttt}
+
+
+% tools
+	\newcommand{\tool}{\texttt}
+
+% software metrics
+	\newcommand{\metric}{\texttt}
+	\newcommand{\eqmetric}[1]{\text{\texttt{#1}}}
