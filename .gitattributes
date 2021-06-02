@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+*.{yml,[yY][mM][lL]} text eol=lf
+*.{md,[mM][dD]} text eol=lf
+*.{py,[pP][yY]} text eol=lf
+*.{m,[mM]} text eol=lf
+Makefile text eol=lf
