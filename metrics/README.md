@@ -31,4 +31,111 @@
 |                                 | NCCKW   | Number of programming language keywords in the context and the changed lines                            |
 
 
+## Software File Change Metrics
+
+| Category       | Metric| Description                                                                                                |
+| -------------- | ----- | ---------------------------------------------------------------------------------------------------------- | 
+| Change Process | COMM  | Number of changes to the file up to the considered commit                                                  |
+|                | ADEV  | Number developers who modified the file up to the considered commit                                        |
+|                | DDEV  | Cumulative number of distinct developers contributed to the file up to the considered commit               |
+|                | ADD   | Number of lines added to the file in the considered commit                                                 |
+|                | DEL   | Number of lines removed from the file in the considered commit                                             |
+|                | OWN   | Whether the commit is done by the owner of the file                                                        |
+|                | MINOR | Number of contributors who contributed less than 5% of the file up to the considered commits               |
+|                | SCTR  | Number of packages modified by the committer in the commit                                                 |
+|                | NADEV | Number of developers who changed the files in the commits where the file has been modified                 |
+|                | NDDEV | Cumulative number of distinct developers who changed the files in commits where the file has been modified |
+|                | NCOMM | Number of commits made to files in commits where the file has been modified                                |
+|                | NSCTR | Number of different packages touched by the developer in commits where the file has been modified          |
+|                | OEXP  | Percentage of lines authored in the project                                                                |
+|                | AEXP  | Mean of the experiences of all the developers who touched the file                                         |
+
+
+
+
+## Issue Report and Code Review Metrics  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Static Program Analysis Metrics 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
