@@ -1,0 +1,226 @@
+\subsection*{Metrics and Features for JIT-SDP}
+
+\begin{table}[!htbp]
+	\centering
+	\caption{Software Change Metrics~\cite{kamei2012large, liu2017code, kamei2016studying}}
+	\label{tab:changemetrics}
+	\begin{tabular}{p{0.75in} p{0.5in} p{3.5in}}
+		\toprule
+		Category & Metric & Description \\
+		\midrule
+		\multirow{4}{0.75in}{Diffusion}
+			& \metric{NS} & Number of modified subsystems\\
+		 	& \metric{ND} & Number of modified directories\\
+		 	& \metric{NF} & Number of modified files\\
+			& \metric{Entropy} & Distribution of modified code across each file \\
+		 \midrule
+		\multirow{3}{0.75in}{Size}
+			& \metric{LA} & Lines of code added\\
+		 	& \metric{LD} & Lines of code deleted\\
+		 	& \metric{LT} & Lines of code in a file before the change \\
+		\midrule
+		Purpose & \metric{FIX} & Whether or not the change is a defect fix \\
+		\midrule
+		\multirow{3}{0.75in}{History}
+			& \metric{NDEV} & The number of developers that changed the modified files \\
+		 	& \metric{AGE} & The average time interval between the last and current change \\
+		 	& \metric{NUC} & The number of unique changes to the modified files \\
+		\multirow{3}{0.75in}{Experience}
+			& \metric{EXP} & Developer experience \\
+		 	& \metric{REXP} & Recent developer experience \\
+		 	& \metric{SEXP} & Developer experience on a sub-system \\
+		\midrule
+		Size
+			& \metric{Churn} & Size of the change, i.e., \metric{LA} + \metric{LD} \\
+			& \metric{RChurn} & Relative Churn, i.e., (\metric{LA} + \metric{LD})/\metric{LT} \\
+			& \metric{RLA} & Relative \metric{LA}, i.e., \metric{LA} / \metric{LT} \\
+			& \metric{RLD} & Relative \metric{LD}, i.e., \metric{LD} / \metric{LT} \\
+			& \metric{RLT} & Relative \metric{LT}, i.e., \metric{LT} / \metric{NF} \\
+		\midrule
+
+		\multirow{2}{0.75in}{Change Complexity (Indentation)}
+			& \metric{AS}
+			& Number of white spaces on all the ``+'' (added) lines in a
+			commit \\
+
+			& \metric{AB}
+			& Sum of the difference of left-braces and right-braces on all
+			the ``+'' lines in each function in a commit
+			\\
+
+
+		\midrule
+
+		\multirow{4}{0.75in}{Change Context}
+			& \metric{NCW}
+			& Number of words in context
+			\\
+
+			& \metric{NCKW}
+			& Number of programming language keywords
+			\\
+
+			& \metric{NCCW}
+			& number of words in the context and the changed lines
+			\\
+
+			& \metric{NCCKW}
+			& Number of programming language keywords in the context and the changed
+			lines \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+	\centering
+	\caption{Software File Change Metrics~\cite{pascarella2019fine, kondo2020impact}}
+	\label{tab:filechangemetrics}
+	\begin{tabular}{p{0.75in} p{0.5in} p{3.75in}}
+		\toprule
+		Category & Metric & Description \\
+		\midrule
+		\multirow{14}{0.75in}{Change Process}
+		 	& \metric{COMM}
+			& Number of changes to the file up to the considered commit \\
+
+		 	& \metric{ADEV}
+			& Number developers who modified the file up to the considered
+					commit   \\
+
+		 	& \metric{DDEV}
+			& Cumulative number of distinct developers contributed to the file up
+					to the considered commit   \\
+
+		 	& \metric{ADD}
+			& Number of lines added to the file in the considered
+					commit   \\
+
+		 	& \metric{DEL}
+			& Number of lines removed from the file in the considered commit
+			\\
+
+		 	& \metric{OWN}
+			& Whether the commit is done by the owner of the file   \\
+
+		 	& \metric{MINOR}
+			& Number of contributors who contributed less than 5\% of the file up to
+			the considered commits   \\
+
+		 	& \metric{SCTR}
+			& Number of packages modified by the committer in the commit   \\
+
+		 	& \metric{NADEV}
+			& Number of developers who changed the files in the commits where
+			the file has been modified   \\
+
+		 	& \metric{NDDEV}
+			& Cumulative number of distinct developers who changed the files
+			in commits where the file has been modified    \\
+
+		 	& \metric{NCOMM}
+			& Number of commits made to files in commits where the file has
+			been modified   \\
+
+		 	& \metric{NSCTR}
+			& Number of different packages touched by the developer in commits where
+			the file has been modified   \\
+
+		 	& \metric{OEXP}
+			& Percentage of lines authored in the project   \\
+
+			& \metric{AEXP}
+			& Mean of the experiences of all the
+			developers who touched the file\\
+
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+	\centering
+	\caption{Issue Report and Code Review Metrics~\cite{tourani2016impact}}
+	\label{tab:issuemetrics}
+	\begin{tabular}{p{0.75in} p{0.5in} p{3.75in}}
+		\toprule
+		Category & Metric & Description \\
+		\midrule
+		\multirow{5}{0.75in}{Thread Focus}
+		 	& \metric{COMMEXP}
+			& Commenter experience
+			\\
+
+		 	& \metric{RPTEXP}
+			& Reporter experience
+			\\
+
+		 	& \metric{RVWEXP}
+			& Reviewer experience \\
+
+		 	& \metric{PATCHNUM}
+			& Number of patch revisions
+			\\
+
+		 	& \metric{NINLCMMT}
+			& Number of inline comments
+			\\
+
+			\midrule
+		\multirow{2}{0.75in}{Thread Length}
+		 	& \metric{NUMCMMT}
+			& Number of comments
+			\\
+
+		 	& \metric{LENCMMT}
+			& Length of comments
+			\\
+
+			\midrule
+		\multirow{3}{0.75in}{Thread Time}
+		 	& \metric{RVWTIME}
+			& Review time
+			\\
+
+		 	& \metric{FIXTIME}
+			& Fix time
+			\\
+
+		 	& \metric{DISCLAG}
+			& Average discussion lag
+			\\
+
+			\midrule
+		\multirow{1}{0.75in}{Sentiment}
+		 	& \metric{CMMTSENT}
+			& Comment sentiment
+			\\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+
+\begin{table}[!htbp]
+	\centering
+	\caption{Static Program Analysis Metrics~\cite{trautsch2020static}}
+	\label{tab:warndensity}
+	\begin{tabular}{p{0.75in} p{0.5in} p{3.75in}}
+		\toprule
+		Category & Metric & Description \\
+		\midrule
+		\multirow{3}{0.75in}{Program Analysis}
+		 	& \metric{SysWD}
+			& Warning density of the project
+			\\
+
+		 	& \metric{FSysWD}
+			& Cumulative difference between warning density of the file and the
+			project \\
+
+		 	& \metric{AuDWD}
+			& Cumulative sum of the changes in warning density by the author
+			\\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+
+
