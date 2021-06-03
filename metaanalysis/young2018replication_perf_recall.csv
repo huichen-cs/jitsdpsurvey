@@ -1,0 +1,18 @@
+Table 3: Recall Percent Values of Deeper, TLEL, and DSL
+Project
+Deeper
+Original
+Deeper
+Replicated
+TLEL
+Original
+TLEL
+Replicated
+DSL
+Bugzilla 69.83 68.49 75.92 73.17 73.47
+Columba 67.37 67.07 74.33 71.36 70.82
+JDT 69.06 68.63 73.48 73.50 72.02
+Mozilla 68.00 69.27 77.75 77.61 76.95
+Platform 69.84 70.30 77.48 75.18 74.26
+PostgreSQL 66.71 65.14 76.97 74.55 74.22
+Average 68.47 68.15 75.99 74.23 73.62

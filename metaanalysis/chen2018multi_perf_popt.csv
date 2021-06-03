@@ -1,0 +1,17 @@
+# 
+# Chen et al.~\cite{chen2018multi}  
+#
+# Table 7
+# MULTI-M vs top two supervised and unsupervised methods in
+# cross-validation scenario using P_OPT.
+#
+# ``Popt is the normalized version of the effort-aware performance 
+# indicator originally proposed by Mende and Koschke [29].''
+#
+Project,MULTI-M,EALR,AB+LMT,LT,AGE
+BUG,0.883,0.722,0.625,0.756,0.757
+COL,0.880,0.605,0.371,0.828,0.848
+JDT,0.829,0.514,0.515,0.777,0.744
+PLA,0.853,0.549,0.511,0.748,0.715
+MOZ,0.757,0.453,0.527,0.655,0.620
+POS,0.843,0.517,0.361,0.796,0.751

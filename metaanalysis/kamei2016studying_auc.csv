@@ -1,0 +1,33 @@
+#
+# Fukushima et al.~\cite{fukushima2014empirical}
+#
+# Table 3: Summary of AUC values for within-project prediction and cross-project prediction
+#
+# To measure within-project performance, we select one project
+# as the training dataset, perform tenfold cross-validation
+# using data from the same project and then calculate the
+# AUC value.
+#
+# We use all of the data of
+# each project to build the within-project model. We perform
+# ten combinations of cross-project prediction (11 projects -
+# 1 for training). We then select the median of the ten AUC
+# values. This median value is referred to as the cross-project
+# AUC.
+#
+# Training project: Column header
+# Testing project: Row header
+#
+#
+Testing,BUG,COL,GIP,JDT,MAV,MOZ,PER,PLA,POS,RUB,RHI
+BUG,0.75,0.55,0.66,0.72,0.66,0.71,0.68,0.68,0.69,0.69,0.69
+COL,0.56,0.77,0.63,0.73,0.62,0.74,0.64,0.76,0.71,0.61,0.65
+GIP,0.47,0.47,0.79,0.69,0.63,0.58,0.68,0.60,0.66,0.62,0.69
+JDT,0.61,0.66,0.68,0.75,0.62,0.73,0.67,0.72,0.70,0.68,0.68
+MAV,0.38,0.63,0.76,0.72,0.83,0.76,0.75,0.79,0.72,0.73,0.75
+MOZ,0.69,0.64,0.74,0.74,0.69,0.80,0.73,0.74,0.77,0.74,0.75
+PER,0.57,0.49,0.69,0.67,0.65,0.63,0.75,0.60,0.66,0.69,0.72
+PLA,0.69,0.68,0.69,0.75,0.65,0.74,0.68,0.78,0.70,0.67,0.68
+POS,0.50,0.56,0.68,0.71,0.69,0.74,0.72,0.73,0.79,0.72,0.72
+RUB,0.51,0.60,0.63,0.65,0.62,0.65,0.70,0.64,0.66,0.74,0.68
+RHI,0.55,0.68,0.77,0.62,0.72,0.77,0.79,0.73,0.73,0.72,0.81

@@ -1,0 +1,17 @@
+#
+# Table 3
+# Results for RQ1 on partially defective commits.
+# Ratio
+#
+Systems,Ratio_Partially_defective_commits,Ratio_Defective_files,Avg._files_per_commit
+Accumulo,46,44,4.1
+Angular-js,51,38,2.2
+Bugzilla,47,37,5.4
+Gerrit,38,43,3.3
+Gimp,44,45,4.3
+Hadoop,49,38,3.1
+JDeodorant,39,47,3.4
+Jetty,53,46,3.8
+JRuby,45,42,3.5
+OpenJPA,40,37,4.0
+Overall,43,42,3.7

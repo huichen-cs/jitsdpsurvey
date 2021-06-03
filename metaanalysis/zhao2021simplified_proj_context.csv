@@ -1,0 +1,13 @@
+# TABLE I
+# BASIC STATISTIC INFORMATION OF THE 10 APPS
+App,NumCommits,NumDefective,NumClean,%Ratio
+Alfresco,1004,214,790,21
+Sync,209,62,147,30
+Keyboard,2971,819,2152,28
+Wallpaper,588,94,494,16
+ChatSecure,2579,853,1726,33
+Facebook,548,180,368,33
+Kiwix,1373,350,1023,25
+OwnCloud,3700,830,2870,22
+PageTurner,164,23,141,14
+NotifyReddit,222,60,162,27

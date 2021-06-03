@@ -1,0 +1,17 @@
+#
+# TABLE I
+# STATISTICS OF THE STUDIED PROJECTS
+# Dataset #commits %defect- Period Language
+# inducing
+#
+Project,#commits,%defect-inducing,PeriodBegin,PeriodEnd,Language
+Fabric8,13004,20,12/2011,12/2017,Java
+JGroups,18317,17,09/2003,12/2017,Java
+Camel,30517,20,03/2007,12/2017,Java
+Tomcat,18877,28,03/2006,12/2017,Java
+Brackets,17311,23,12/2011,12/2017,JavaScript
+Neutron,19451,24,12/2010,12/2017,Python
+Spring-integration,8692,27,11/2007,01/2018,Java
+Broadleaf,14911,17,11/2008,12/2017,Java
+Nova,48938,25,08/2010,01/2018,Python
+NPM,7893,18,09/2009,11/2017,JavaScript

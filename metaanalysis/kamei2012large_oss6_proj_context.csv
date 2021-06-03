@@ -1,0 +1,12 @@
+# TABLE 2
+# Statistics of the Studied Projects
+# Period The total number # of changes
+# Average LOC # of modified files # of changes # dev. per file
+# File Change per change per day Max Avg
+Project,FirstMonth,LastMonth,Changes,DefectRatio,LOCFile,LOCChange,NFilesPerChange,NChangePerDay,NDevPerFileMax,NDevPerFileAvrg
+Bugzilla,08/1998,12/2006,4620,36,389.8,37.5,2.3,1.5,37,8.4
+Columba,11/2002,07/2006,4455,31,125.0,149.4,6.2,3.3,10,1.6
+JDT,05/2001,12/2007,35386,14,260.1,71.4,4.3,14.7,19,4.0
+Platform,05/2001,12/2007,64250,14,231.6,72.2,4.3,26.7,28,2.8
+Mozilla,01/2000,12/2006,98275,5,360.2,106.5,5.3,38.9,155,6.4
+PostgreSQL,07/1996,05/2010,20431,25,563.0,101.3,4.5,4.0,20,4.0

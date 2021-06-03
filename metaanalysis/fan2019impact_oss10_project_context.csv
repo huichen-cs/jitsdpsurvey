@@ -1,0 +1,12 @@
+# TABLE 1: Overview of Studied Projects
+Project,Description,NChanges
+ActiveMQ,"A message broker with a Java message service client.",7753
+Camel,"A versatile integration framework for a variety of domain-specific languages.",17374
+Derby,"A relational database management system (RDBMS) written in Java",9775
+Geronimo,"An application server fully certified by Java Enterprise Edition 6 (Java EE 6).",16152
+Hadoop-Common,"Common A software for distributed processing of large data sets using clusters of computers.",27077
+HBase,"A distributed and scalable database adopted by Hadoop for big-data store.",14581
+Mahout,"A framework for implementing distributed or scalable machine learning algorithms.",2762
+OpenJPA,"Java persistence library using a object-relation mapping (ORM) solution.",6368
+Pig,"A high-level platform for creating programs using Hadoop to analyze large data sets.",3089
+Tuscany,"A software that provides an infrastructure for developing and managing service-oriented architecture.", 21595

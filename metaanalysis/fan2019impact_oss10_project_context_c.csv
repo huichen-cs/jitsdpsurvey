@@ -1,0 +1,15 @@
+# TABLE 4: Number of mislabeled changes (misl.), false positives (FP) and false negatives (FN) in the labeled data by B-SZZ,
+# AG-SZZ and MA-SZZ compared to the labeled data by RA-SZZ. False positive rate (FPR) and false negative rate (FNR) of
+# the labeled data by B-SZZ, AG-SZZ and MA-SZZ are also shown in the table.
+# Project B-SZZ AG-SZZ MA-SZZ
+Project,B-SZZ(#misl.),B-SZZ(FP),B-SZZ(FPR),B-SZZ(FN),B-SZZ(FNR),AG-SZZ(#misl.),AG-SZZ(FP),AG-SZZ(FPR),AG-SZZ(FN),AG-SZZ(FNR),MA-SZZ(#misl.),MA-SZZ(FP),MA-SZZ(FPR),MA-SZZ(FN),MA-SZZ(FNR)
+ActiveMQ,892,672,10,220,18,552,232,4,320,26,149,120,2,29,2
+Camel,1503,1221,8,282,14,1186,600,4,586,29,268,218,1,50,1
+Derby,939,779,9,160,14,1016,831,10,185,16,572,489,6,83,6
+Geronimo,931,692,5,239,13,1047,218,2,829,45,259,201,1,58,1
+Hadoop-Common,876,573,2,303,18,772,280,1,492,29,356,291,1,65,1
+Hbase,1381,1017,9,364,14,1087,433,4,654,24,598,500,4,98,4
+Mahout,225,172,7,53,13,168,51,2,117,28,84,60,3,24,3
+OpenJPA,398,258,5,140,20,431,199,4,232,34,271,216,4,55,4
+Pig,196,139,5,57,12,166,70,3,96,21,91,76,3,15,3
+Tuscany,1121,886,4,235,16,813,164,1,649,43,250,169,1,81,1

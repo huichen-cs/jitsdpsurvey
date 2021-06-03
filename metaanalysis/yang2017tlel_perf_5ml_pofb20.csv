@@ -1,0 +1,12 @@
+# Table 1
+#
+# PofB20 of five classification techniques for just-in-time defect pre-
+# diction.
+#
+Project,NB(%),SVM(%),DT(%),LDA(%),NN(%)
+Bugzilla,36.91,37.21,52.65,38.27,32.72
+Columba,42.40,48.71,46.07,43.28,30.20
+JDT,46.22,10.55,52.60,47.49,34.15
+Mozilla,49.45,19.11,55.54,52.22,34.06
+Platform,56.73,18.91,57.07,52.23,38.16
+PostgreSQL,48.33,54.56,56.18,52.51,40.71

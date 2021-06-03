@@ -1,0 +1,44 @@
+#
+# Table 9 in Fan et al.~\cite{fan2019impact}
+#
+# The out-of-sample bootstrap process is repeated 1,000 times.
+#
+# Following Kamei et al. [37], we re-balance the
+# training data that is labeled by each SZZ variant using the
+# undersampling method
+#
+# F1-scores of the B, AG, MA and RA models. We
+# also show the ratios of the F1-scores of the B, AG and MA
+# models to those of the RA model. 
+#
+Cls,Project,B,AG,MA,RA
+RF,ActiveMQ,0.47,0.46,0.49,0.49
+RF,Camel,0.44,0.42,0.45,0.46
+RF,Derby,0.39,0.38,0.40,0.41
+RF,Geronimo,0.44,0.42,0.44,0.44
+RF,Hadoop-Common,0.35,0.33,0.36,0.36
+RF,HBase,0.54,0.53,0.55,0.57
+RF,Mahout,0.51,0.50,0.51,0.51
+RF,OpenJPA,0.39,0.35,0.38,0.39
+RF,Pig,0.46,0.45,0.47,0.47
+RF,Tuscany,0.31,0.31,0.31,0.32
+LR,ActiveMQ,0.44,0.44,0.45,0.45
+LR,Camel,0.38,0.37,0.39,0.39
+LR,Derby,0.35,0.35,0.36,0.37
+LR,Geronimo,0.36,0.36,0.36,0.37
+LR,Hadoop-Common,0.26,0.23,0.24,0.25
+LR,HBase,0.48,0.48,0.48,0.49
+LR,Mahout,0.48,0.48,0.49,0.49
+LR,OpenJPA,0.31,0.31,0.31,0.31
+LR,Pig,0.42,0.41,0.41,0.42
+LR,Tuscany,0.27,0.27,0.27,0.27
+NB,ActiveMQ,0.33,0.33,0.34,0.34
+NB,Camel,0.36,0.30,0.33,0.34
+NB,Derby,0.36,0.33,0.31,0.36
+NB,Geronimo,0.30,0.35,0.30,0.30
+NB,Hadoop-Common,0.17,0.16,0.17,0.18
+NB,HBase,0.44,0.43,0.43,0.44
+NB,Mahout,0.50,0.48,0.50,0.50
+NB,OpenJPA,0.32,0.29,0.31,0.30
+NB,Pig,0.35,0.32,0.35,0.36
+NB,Tuscany,0.27,0.27,0.27,0.27

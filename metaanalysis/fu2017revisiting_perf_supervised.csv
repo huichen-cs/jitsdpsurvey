@@ -1,0 +1,29 @@
+#
+# Table 5: Best unsupervised predictor (A) vs. OneWay (B). The
+# colorful cell indicates the size efect: green for large; yellow
+# for medium; gray for small.
+#
+# Note that, following the practices of Yang et al. [54], we measure
+# Precision, Recall, F1 and Popt at the efort = 20% point. In this study,
+# in addition to Popt and ACC (i.e., Recall) that is used in Yang et al’s
+# work [54], we include Precision and F1 measures and they provide
+# more insights about all the learners evaluated in the study from
+# very diferent perspectives, which will be shown in the next section
+#
+# When applying data mining algorithms to build predictive models,
+# one important principle is not to test on the data used in training.
+# To avoid that, we used time-wise-cross-validation method which is
+# also used by Yang et al. [54].
+#
+# Recall: r
+# Popt: Popt
+# F1: f1
+# Precision: p
+#
+Project,r(A(LT)),r(B),popt(A(LT)),popt(B),f1(A(REXP)),f1(B),p(A(EXP)),p(B)
+Bugzilla,0.45,0.36,0.72,0.65,0.33,0.35,0.40,0.39
+Platform,0.43,0.41,0.72,0.69,0.16,0.17,0.14,0.11
+Mozilla,0.36,0.33,0.65,0.62,0.10,0.08,0.06,0.04
+JDT,0.45,0.42,0.71,0.70,0.18,0.18,0.15,0.12
+Columba,0.44,0.56,0.73,0.76,0.23,0.32,0.24,0.25
+PostgreSQL,0.43,0.44,0.74,0.74,0.24,0.29,0.25,0.23

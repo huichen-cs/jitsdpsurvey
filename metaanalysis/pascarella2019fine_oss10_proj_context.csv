@@ -1,0 +1,16 @@
+#
+# Table 1
+#
+# Characteristics of the subject software systems.
+#
+Project,KLOC,Developers,Commits,DefectiveCommits
+Accumulo,102,66,8747,1399
+Angular-js,87,1589,8467,1525
+Bugzilla,239,99,9788,3621
+Gerrit,79,38,22232,4001
+Gimp,102,216,38240,8412
+Hadoop,291,92,15556,2606
+JDeodorant,70,9,1105,199
+Jetty,88,70,12638,3286
+JRuby,129,322,38894,8945
+OpenJPA,822,25,4848,1502

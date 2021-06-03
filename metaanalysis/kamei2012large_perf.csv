@@ -1,0 +1,29 @@
+#
+# Tables 4 and 5 in Kamei et al.~\cite{kamei2012large}
+#
+# 10-fold cross validation
+#
+# imbalance: undersampling of majority class
+#
+# threshold = 0.5
+# preprocessing + logistic regression + StepAIC
+#
+# The accuracy measures the percentage of detected defect-inducing
+# changes to all defect-inducing changes when using
+# 20 percent of all effort (we call it accuracy in RQ2). We selected
+# 20 percent effort as the cut-off value. Here 20% is a threshold.
+#
+# Popt is threshold free
+#
+Proj,Acc,Precision,Recall,F1,AUC,Acc20,Popt
+Bugzilla,67,54,69,60,74,0.38,0.72
+Columba,70,51,67,58,75,0.39,0.57
+JDT,69,26,65,37,74,0.20,0.48
+Platform,67,27,70,38,75,0.30,0.55
+Mozilla,77,13,63,22,77,0.15,0.45
+PostgreSQL,74,49,65,56,79,0.26,0.51
+C-1,66,35,58,44,68,0.29,0.60
+C-2,63,31,61,41,68,0.47,0.72
+C-3,63,47,62,54,69,0.50,0.75
+C-4,66,41,61,49,69,0.38,0.66
+C-5,70,5,66,10,73,0.51,0.71

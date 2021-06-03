@@ -1,0 +1,19 @@
+#
+# Hoang et al.~\cite{hoang2019deepjit}
+#
+# TABLE III: The AUC results of DeepJIT vs. with other
+# baselines in three types of JIT models: cross-validation, shortperiod,
+# and long-period.
+#
+# AUC
+#
+Settings,Models,QT,OPENSTACK
+Cross-validation,JIT,0.701,0.691
+Cross-validation,DBNJIT,0.705,0.694
+Cross-validation,DeepJIT,0.768,0.751
+Short-Period,JIT,0.703,0.711
+Short-Period,DBNJIT,0.714,0.716
+Short-Period,DeepJIT,0.764,0.781
+Long-period,JIT,0.702,0.706
+Long-period,DBNJIT,0.708,0.712
+Long-period,DeepJIT,0.765,0.771

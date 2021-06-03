@@ -1,0 +1,17 @@
+#
+# TABLE 3: Number and percentage of bug-introducing changes in the labeled data
+# by the four SZZ variants. The last two columns show the number of refactoring
+# changes detected by RefDiff and RefDiff’s precision on sampled changes
+#
+#
+Project,B-SZZ,B-SZZ-Ratio,AG-SZZ,AG-SZZ-Ratio,MA-SZZ,MA-SZZ-Ratio,RA-SZZ,RA-SZZ-Ratio,NRef.Changes,Prec.RefDiff
+ActiveMQ,1697,22,1157,15,1336,17,1245,16,649,98
+Camel,2957,17,2032,12,2186,13,2018,12,1832,97
+Derby,1772,18,1799,18,1559,16,1153,12,1025,99
+Geronimo,2309,14,1245,08,1999,12,1856,11,1200,97
+Hadoop-Common,1951,07,1469,05,1907,07,1681,06,3899,98
+HBase,3323,23,2449,17,3072,21,2670,18,1902,98
+Mahout,539,20,354,13,456,17,420,15,357,99
+OpenJPA,810,13,659,10,853,13,692,11,509,99
+Pig,549,18,441,14,528,17,467,15,263,97
+Tuscany,2157,10,1021,5,1594,07,1506,07,2007,99

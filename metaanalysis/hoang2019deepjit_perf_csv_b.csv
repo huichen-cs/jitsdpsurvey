@@ -1,0 +1,17 @@
+#
+# Hoang et al.~\cite{hoang2019deepjit}
+#
+# TABLE IV: Contribution of feature components in DeepJIT.
+#
+# AUC
+#
+Settings,Models,QT,OPENSTACK
+Cross-validation,DeepJIT-Msg,0.641,0.689
+Cross-validation,DeepJIT-Code,0.738,0.729
+Cross-validation,DeepJIT,0.768,0.751
+Short-Period,DeepJIT-Msg,0.609,0.583
+Short-Period,DeepJIT-Code,0.734,0.769
+Short-Period,DeepJIT,0.764,0.781
+Long-period,DeepJIT-Msg,0.638,0.659
+Long-period,DeepJIT-Code,0.727,0.738
+Long-period,DeepJIT,0.765,0.771

@@ -1,0 +1,16 @@
+# 
+# Table 8 in Yang et al.~\cite{yang2017tlel}
+#
+# PofB20 values of TLEL and the three baselines.
+#
+# ``To make our results more convincing, we perform 10-fold cross validation
+# 100 times and report the average results.''
+#
+Project,PofB20(Deeper),PofB20(DNC),PofB20(TLEL),PofB20(MKEL)
+Bugzilla,43.52,43.47,61.67,33.02
+Columba,41.33,42.39,58.85,30.05
+JDT,48.81,54.20,72.55,26.00
+Mozilla,68.30,72.52,82.40,50.98
+Platform,57.25,62.82,77.08,48.94
+PostgreSQL,54.11,56.63,70.64,33.33
+Average,52.22,55.34,70.53,37.05

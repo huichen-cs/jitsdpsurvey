@@ -1,0 +1,36 @@
+# From TABLE XV in Duan et al.~\cite{duan2021impact}
+#
+# AVERAGE AUC AND F1 SCORES OF THE UN-DUP MODEL FOR USING
+# DIFFERENT DATA PROCESSING METHODS
+#
+# RF: Random Forest
+# LR: Logistic Regression
+# NB: Naive Bayes
+#
+# Using the out-of-sample bootstrap validation technique.
+#
+Classifier,Project,auc(OS),auc(Smote),auc(US),f1(OS),f1(Smote),f1(US)
+RF,ActiveMQ,0.82,0.81,0.81,0.63,0.63,0.66
+RF,Camel,0.84,0.84,0.84,0.52,0.52,0.54
+RF,Derby,0.81,0.80,0.80,0.34,0.43,0.42
+RF,Geronimo,0.90,0.90,0.89,0.43,0.48,0.42
+RF,HBase,0.82,0.82,0.85,0.50,0.54,0.51
+RF,Hadoop-Common,0.89,0.87,0.86,0.30,0.37,0.28
+RF,OpenJPA,0.81,0.80,0.80,0.33,0.41,0.38
+RF,Pig,0.79,0.79,0.79,0.42,0.48,0.45
+LR,ActiveMQ,0.81,0.80,0.81,0.66,0.65,0.66
+LR,Camel,0.83,0.82,0.83,0.52,0.50,0.52
+LR,Derby,0.76,0.75,0.76,0.36,0.32,0.36
+LR,Geronimo,0.86,0.85,0.86,0.34,0.32,0.34
+LR,HBase,0.78,0.78,0.78,0.48,0.45,0.45
+LR,Hadoop-Common,0.78,0.76,0.76,0.25,0.20,0.23
+LR,OpenJPA,0.73,0.71,0.73,0.31,0.27,0.31
+LR,Pig,0.77,0.77,0.77,0.41,0.38,0.41
+NB,ActiveMQ,0.77,0.76,0.77,0.62,0.61,0.62
+NB,Camel,0.80,0.80,0.80,0.50,0.50,0.50
+NB,Derby,0.75,0.74,0.75,0.36,0.35,0.36
+NB,Geronimo,0.84,0.83,0.84,0.31,0.32,0.31
+NB,HBase,0.75,0.75,0.75,0.31,0.33,0.31
+NB,Hadoop-Common,0.74,0.70,0.74,0.17,0.17,0.16
+NB,OpenJPA,0.73,0.72,0.73,0.30,0.30,0.30
+NB,Pig,0.75,0.74,0.75,0.33,0.34,0.34

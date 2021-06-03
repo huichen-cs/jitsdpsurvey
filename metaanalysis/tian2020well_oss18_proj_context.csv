@@ -1,0 +1,21 @@
+# TABLE IV
+# 18 OPEN SOURCE TARGET PROJECTS
+Project,Description,Age(year),KLOC,NumChanges,Bug%,E-Bug%
+ActiveMQ "A high performance messaging server.",13.45,38,10213,16.15,1.29
+Ant "A Java based build tool.",8.75,339,14387,6.08,0.70
+Camel "An open source integration framework.",11.53,75,38563,9.04,0.64
+Derby "A pure Java standards-based relational database engine.",9.42,1350,8268,15.74,2.67
+Geronimo "An open source server runtime.",6.79,48,13137,14.46,2.31
+Hadoop "An open source distributed computing system.",11.59,102,16084,26.67,5.30
+HBase "A distributed scalable big data store.",5.03,413,10509,5.21,0.89
+IVY "A project dependencies managing tool.",3.29,135,2880,16.18,8.40
+JCR "An implementation of the Content Repository for Java Technology API.",8.82,38,8651,6.44,0.82
+JMeter "An application to load test applications and measure performance.",15.89,264,16341,7.54,0.24
+LOG4J2 "A logging library for Java.",5.37,85,10690,4.79,0.79
+LUCENE "A high-performance full featured text search engine library.",15.93,183,31240,7.03,1.08
+Mahout "A distributed linear algebra framework and Scala DSL.",5.52,189,4115,15.16,1.24
+OpenJPA "An implementation of the Java Persistence API specification.",7.72,108,4893,12.53,0.69
+Pig "A data-flow programming environment for processing very large files.",12.15,47,9878,20.93,2.59
+POI "A Java library for reading and writing Microsoft Office file formats.",8.66,383,3188,22.74,3.61
+VELOCITY "A general purpose template engine.",8.07,64,4263,11.07,1.22
+XERCESC "A is a validating XML parser written in C++.",7.34,310,6359,8.82,2.91

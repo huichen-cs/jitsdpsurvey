@@ -1,0 +1,34 @@
+#
+# Table 3 in Jiang et al.~\cite{jiang2013personalized}
+#
+# 10-fold cross-validation
+#
+# no mention whether it deals data imbalance
+#
+# PofB20 is Acc@20
+#
+Project,Method,Precision,Recall,F1,NofB20,PofB20
+Linux,CC,0.59,0.49,0.54,160,0.51
+Linux,MARS,0.46,0.39,0.42,121,0.39
+Linux,PCC,0.61,0.50,0.55,179,0.57
+Linux,PCC+,0.62,0.49,0.55,172,0.55
+PostgreSQL,CC,0.65,0.58,0.61,55,0.08
+PostgreSQL,MARS,0.60,0.55,0.57,76,0.11
+PostgreSQL,PCC,0.63,0.58,0.60,210,0.29
+PostgreSQL,PCC+,0.66,0.59,0.63,175,0.24
+Xorg,CC,0.69,0.62,0.65,96,0.23
+Xorg,MARS,0.65,0.52,0.57,152,0.37
+Xorg,PCC,0.69,0.66,0.67,159,0.39
+Xorg,PCC+,0.73,0.66,0.69,161,0.39
+Eclipse,CC,0.59,0.48,0.53,116,0.20
+Eclipse,MARS,0.55,0.43,0.48,20,0.03
+Eclipse,PCC,0.63,0.55,0.59,207,0.36
+Eclipse,PCC+,0.68,0.56,0.61,200,0.35
+Lucene,CC,0.58,0.46,0.51,176,0.28
+Lucene,MARS,0.51,0.41,0.45,131,0.21
+Lucene,PCC,0.60,0.53,0.56,254,0.40
+Lucene,PCC+,0.64,0.54,0.59,258,0.41
+Jackrabbit,CC,0.72,0.72,0.72,411,0.37
+Jackrabbit,MARS,0.72,0.70,0.71,411,0.37
+Jackrabbit,PCC,0.72,0.72,0.72,449,0.40
+Jackrabbit,PCC+,0.74,0.74,0.74,459,0.41

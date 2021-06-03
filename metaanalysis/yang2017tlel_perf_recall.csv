@@ -1,0 +1,13 @@
+# Table 10
+# Recall of TLEL and the three baselines.
+#
+# ``To make our results more convincing, we perform 10-fold cross validation
+# 100 times and report the average results.''
+#
+Project,r(Deeper),r(DNC),r(TLEL),r(MKEL)
+Bugzilla,69.83,74.90,75.92,1
+Columba,67.37,76.52,74.33,1
+JDT,69.06,72.32,73.48,1
+Mozilla,68.00,61.01,77.75,1
+Platform,69.84,76.49,77.48,1
+PostgreSQL,66.71,81.41,76.97,1

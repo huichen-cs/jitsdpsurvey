@@ -1,0 +1,18 @@
+#Table 1: Summary of the studied projects. “#Devs” represents the number of developers. “Med_size” represents the median
+#change size. “Mean_size” represents the mean change size. In “Lifecycle” column, “Post-init” represents the post-initial version,
+#“Pre-init” represents the pre-initial version.
+Project,NumChanges,NumDefective,DefRatio,NumBranches,NumDevs,NumLOC,NumFile,Med_size,Mean_size,Users,Lifecycle,TimeBegin,TimeEnd
+P1,5218,871,16.7,263,12,93111,1243,12,199,Internal,Post-init,2017.7,2018.7
+P2,11571,1504,13.0,821,36,189742,2380,9,84,Internal,Pre-init,2015.10,2018.7
+P3,11699,2529,21.6,180,41,56691,847,12,229,Internal,Post-init,2014.7,2018.6
+P4,30777,5642,18.3,1095,46,326857,2100,13,110,Internal,Post-init,2014.5,2018.6
+P5,20053,2594,12.9,875,67,285887,3986,9,87,External,Post-init,2015.3,2018.7
+P6,3707,285,7.7,55,14,135976,976,26,173,Internal,Pre-init,2016.11,2018.6
+P7,3640,294,8.1,289,18,110049,892,10,467,Internal,Pre-init,2016.9,2018.6
+P8,18053,1810,10.0,1258,267,248887,3082,6,87,External,Post-init,2016.1,2018.7
+P9,4688,1215,25.9,605,30,33896,330,3,61,External,Post-init,2016.12,2018.6
+P10,18888,1616,8.6,985,151,326710,3830,4,285,External,Pre-init,2016.1,2018.7
+P11,20760,1998,9.6,1765,63,434975,4467,9,386,External,Post-init,2015.5,2018.7
+P12,9042,1628,18.0,633,10,130017,1288,7,116,External,Post-init,2015.12,2018.7
+P13,18424,1869,10.1,1338,72,86783,1001,4,62,External,Post-init,2012.4,2018.7
+P14,20270,1966,9.7,1279,27,422540,4323,11,135,External,Post-init,2016.7,2018.7

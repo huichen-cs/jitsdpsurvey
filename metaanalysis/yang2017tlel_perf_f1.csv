@@ -1,0 +1,15 @@
+#
+# Table 11 in Yang et al.~\cite{yang2017tlel}
+#
+# F1-score of TLEL and the three baselines.
+#
+# ``To make our results more convincing, we perform 10-fold cross validation
+# 100 times and report the average results.''
+#
+Project,f1(Deeper),f1(DNC),f1(TLEL),f1(MKEL)
+Bugzilla,0.6292,0.6472,0.6850,0.5371
+Columba,0.5606,0.5721,0.6065,0.4680
+JDT,0.3779,0.3971,0.4194,0.2488
+Mozilla,0.2215,0.3023,0.2625,0.0987
+Platform,0.3822,0.4169,0.4471,0.2558
+PostgreSQL,0.5509,0.5675,0.6052,0.4000

@@ -1,0 +1,16 @@
+#
+# 
+# Hoang et al.~\cite{hoang2019deepjit}
+#
+# TABLE V: Combination of DeepJIT with the manually crafted
+# code features from [21].
+#
+# AUC
+#
+Settings,Models,QT,OPENSTACK
+Cross-validation,DeepJIT,0.768,0.751
+Cross-validation,DeepJIT-Combined,0.779,0.76
+Short-Period,DeepJIT,0.764,0.781
+Short-Period,DeepJIT-Combined,0.788,0.814
+Long-period,DeepJIT,0.765,0.771
+Long-period,DeepJIT-Combined,0.786,0.799

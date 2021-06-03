@@ -1,0 +1,45 @@
+#
+# Table 8 in Fan et al.~\cite{fan2019impact}
+#
+# The out-of-sample bootstrap process is repeated 1,000 times.
+#
+# Following Kamei et al. [37], we re-balance the
+# training data that is labeled by each SZZ variant using the
+# undersampling method
+#
+# TABLE 8: AUC scores of the B, AG, MA and RA models.
+# We also show the ratios of the AUC scores of the B, AG and
+# MA models to those of the RA model.
+#
+#
+Cls,Project,B,AG,MA,RA
+RF,ActiveMQ,0.80,0.79,0.81,0.81
+RF,Camel,0.84,0.82,0.85,0.85
+RF,Derby,0.79,0.78,0.79,0.80
+RF,Geronimo,0.84,0.81,0.84,0.84
+RF,Hadoop-Common,0.87,0.86,0.88,0.88
+RF,HBase,0.83,0.82,0.84,0.85
+RF,Mahout,0.85,0.83,0.84,0.84
+RF,OpenJPA,0.80,0.76,0.80,0.80
+RF,Pig,0.80,0.79,0.81,0.80
+RF,Tuscany,0.83,0.82,0.83,0.83
+LR,ActiveMQ,0.79,0.78,0.79,0.79
+LR,Camel,0.79,0.78,0.79,0.79
+LR,Derby,0.76,0.76,0.76,0.76
+LR,Geronimo,0.79,0.77,0.79,0.79
+LR,Hadoop-Common,0.80,0.76,0.78,0.78
+LR,HBase,0.78,0.78,0.78,0.78
+LR,Mahout,0.83,0.82,0.82,0.82
+LR,OpenJPA,0.74,0.72,0.74,0.74
+LR,Pig,0.78,0.77,0.77,0.78
+LR,Tuscany,0.81,0.80,0.81,0.81
+NB,ActiveMQ,0.74,0.73,0.74,0.74
+NB,Camel,0.77,0.73,0.75,0.76
+NB,Derby,0.74,0.74,0.73,0.74
+NB,Geronimo,0.76,0.73,0.75,0.75
+NB,Hadoop-Common,0.74,0.74,0.74,0.74
+NB,HBase,0.76,0.75,0.75,0.76
+NB,Mahout,0.80,0.78,0.80,0.79
+NB,OpenJPA,0.74,0.71,0.73,0.73
+NB,Pig,0.75,0.74,0.75,0.75
+NB,Tuscany,0.76,0.77,0.77,0.77

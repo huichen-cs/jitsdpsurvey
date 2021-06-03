@@ -1,0 +1,19 @@
+
+#
+# Table 4 in Yang et al.~\cite{yang2016effort}
+#
+# 10 times 10-fold cross-validation: best su-
+# pervised model vs. unsupervised models
+#
+# Showing ACC (ACC = PofB20 = Recall@20) where
+# 20% is the effort threshold
+#
+#
+Project,EALR,NF,Entropy,LT,AGE
+BUG,0.384,0.256,0.267,0.477,0.413
+COL,0.394,0.618,0.608,0.626,0.687
+JDT,0.217,0.370,0.445,0.523,0.476
+PLA,0.303,0.369,0.470,0.459,0.385
+MOZ,0.146,0.213,0.326,0.375,0.244
+POS,0.281,0.416,0.366,0.519,0.464
+

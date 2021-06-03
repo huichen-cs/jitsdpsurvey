@@ -1,0 +1,16 @@
+# Table I
+# CHARACTERISTICS OF THE MOBILE APPS CONSIDERED IN THE STUDY
+Project,URLofPlayStore,URLofRepository,NumSLOC,NumDevelopers,NumofCommits,%ofBuggyCommits
+Afwall,https://tinyurl.com/opd8628,https://tinyurl.com/m722ouo,77243,20,1127,37%
+Alfresco,https://tinyurl.com/kfv93ez,https://tinyurl.com/ya533yya,152047,5,1449,21%
+AndroidSync,https://tinyurl.com/yafbk6f2,https://tinyurl.com/y9vcudjt,275637,27,280,51%
+AndroidWalpaper,https://tinyurl.com/hpl65mr,https://tinyurl.com/y7f5bjpt,35917,1,605,22%
+AnySoftKeyboard,https://tinyurl.com/k9s97zl,https://tinyurl.com/lqzxc3v,114784,38,3250,26%
+Apg,https://tinyurl.com/cxwqp5n,https://tinyurl.com/y6vxu57x,151204,56,4.363,30%
+Atmosphere,https://tinyurl.com/ybdofq5h,https://tinyurl.com/y9ovae5z,56686,101,5757,38%
+ChatSecureAndroid,https://tinyurl.com/lero26e,https://tinyurl.com/pxcupkk,98768,35,2869,30%
+FacebookAndroidSDK,https://tinyurl.com/6ueeu7y,https://tinyurl.com/yctphsxw,103802,64,636,28%
+Flutter,https://tinyurl.com/y9q57wa8,https://tinyurl.com/yd25noy3,639350,352,13067,1%
+Kiwix,https://tinyurl.com/ognzugp,https://tinyurl.com/ycvufxwn,32598,60,1571,22%
+OwnCloudAndroid,https://tinyurl.com/8vfuemy,https://tinyurl.com/ptflhfe,115169,70,7144,22%
+PageTurner,https://tinyurl.com/y9qgcffz,https://tinyurl.com/yc26yklh,30943,16,193,22%

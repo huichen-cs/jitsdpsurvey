@@ -1,0 +1,13 @@
+# Table 9
+# Precision of TLEL and the three baselines.
+#
+# ``To make our results more convincing, we perform 10-fold cross validation
+# 100 times and report the average results.''
+#
+Project,p(Deeper),p(DNC),p(TLEL),p(MKEL)
+Bugzilla,57.28,57.15,62.39,36.71
+Columba,48.01,45.75,51.22,30.55
+JDT,26.02,27.37,29.34,14.20
+Mozilla,13.23,20.11,15.79,5.19
+Platform,26.31,28.66,31.42,14.66
+PostgreSQL,46.93,43.58,49.86,25.00

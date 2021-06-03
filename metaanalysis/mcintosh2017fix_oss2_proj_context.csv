@@ -1,0 +1,6 @@
+# TABLE 1
+# An Overview of the Studied Systems
+# System Timespan Changes Reviews
+Project,Start,End,Total,Defective,DefectiveRatio,Reviewed,ReviewedRatio,Self_Reviewed,#Reviewers
+QT,06/2011,03/2014,25150,2002,8,23821,95,1217,5,2.3,1.0,2.8
+OPENSTACK,11/2011,02/2014,12374,1616,13,12041,97,117,1,4.3,3.0,5.3

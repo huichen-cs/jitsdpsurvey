@@ -1,0 +1,16 @@
+#
+# Liu et al.~\cite{liu2017code}
+#
+# TABLE III. CCUM VS. EALR IN 10 TIMES 10-FOLD CROSSVALIDATION
+#
+# ACC=PofB20
+#
+# Page 4 states ``PofB20 is another name of ACC.''
+#
+Project,EALR,CCUM,Cliff’s_δ,P-value
+BUG,0.415,0.785,1,0.001
+COL,0.405,0.812,1,0.001
+JDT,0.208,0.745,1,0.001
+MOZ,0.148,0.605,1,0.001
+PLA,0.300,0.765,1,0.001
+POS,0.271,0.705,1,0.001

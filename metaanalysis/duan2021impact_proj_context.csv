@@ -1,0 +1,14 @@
+#
+# TABLE IV
+# DISTRIBUTION OF DUPLICATE CHANGES IN EACH PROJECT
+# Duplicate #Bug-introducing
+#
+Project,NumChanges,DuplicateChanges,DuplicateChangesRatio,BugIntroducingChanges,DuplicateBugInducingChanges,DuplicateBugInducingChangesRaio,BugFixChanges,DuplicateBugFixChanges,DuplicateBugFixChangesRatio,NumBranches,NumReleases
+ActiveMQ,8210,644,7.83,2919,172,5.89,3080,269,8.73,15,66
+Camel,27729,3050,10.92,5255,730,13.89,6261,1029,16.44,32,155
+Derby,9439,791,8.38,1136,60,5.28,3363,333,9.90,1,0
+Geronimo,9146,697,7.62,1861,81,4.35,2100,313,16.90,39,35
+HBase,14593,5268,36.10,2672,1619,60.59,4700,2279,48.49,52,736
+Hadoop-Common,27240,4342,15.94,1690,131,7.75,4502,602,13.37,127,192
+OpenJPA,6368,433,6.80,692,39,5.64,1742,191,10.96,30,35
+Pig,3103,303,9.76,467,37,7.82,1012,152,15.02,27,59

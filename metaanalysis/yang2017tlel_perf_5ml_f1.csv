@@ -1,0 +1,13 @@
+#
+# Table 2
+#
+# F1-score of five classification techniques for just-in-time defect pre-
+# diction.
+#
+Project,NB,SVM,DT,LDA,NN
+Bugzilla,0.5456,0.4593,0.5816,0.4682,0.5322
+Columba,0.3780,0.2400,0.4838,0.4166,0.4796
+JDT,0.3262,NAN,0.3075,0.1038,0.2702
+Mozilla,0.1324,NAN,0.2138,0.1467,0.1817
+Platform,0.3476,NAN,0.3316,0.0983,0.3135
+PostgreSQL,0.4048,0.3358,0.4803,0.3895,0.4400

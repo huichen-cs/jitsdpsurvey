@@ -1,0 +1,24 @@
+#
+# Pascarella et al.~\cite{pascarella2019fine}
+#
+# Table 5 - Partially Defective
+# Results of the RQ2 considering only partially defective commits in the history of the
+# subject software systems.
+#
+# In addition, to have a unique value that synthesizes preci- sion and recall
+# we also measure the F-measure, i.e., the har- monic mean of precision and
+# recall: F −Measure = 2 ·P recision ·Recall P recision + Recall
+#
+# It is unclear how cost-effectiveness is defined
+#
+Systems,Precision,Recall,F-measure,AUC-ROC,Cost-effectiveness
+Accumulo,76,69,73,85,19
+Angular-js,75,63,69,77,23
+Bugzilla,69,68,68,74,4
+Gerrit,77,66,72,77,9
+Gimp,65,63,64,69,17
+Hadoop,68,61,64,76,11
+JDeodorant,83,68,76,79,16
+Jetty,64,69,67,83,20
+JRuby,66,63,65,73,28
+OpenJPA,66,64,65,71,7

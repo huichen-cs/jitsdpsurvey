@@ -1,0 +1,23 @@
+#
+# Table 4
+# F1-score of bagging and stacking tech-
+# niques for just-in-time defect predic-
+# tion.
+#
+# Tables 3 and 4 present PofB20 and F1-score of bagging and stacking techniques
+# (based on decision trees) for just-in-time de- fect prediction using the
+# dataset that we have described earlier in this section. From the table, we
+# can see that stacking is bet- ter than bagging on some datasets (i.e., JDT,
+# Mozilla, Platform C in terms of PofB20), while bagging is the better than
+# stacking on some other datasets (e.g., Bugzilla, Columba and PostgreSQL C in
+# terms of PofB20). Therefore, we propose to combine bagging and stacking to
+# build a two-layer ensemble learning model.
+#
+#
+Project,Bagging,Stacking
+Bugzilla,0.6155,0.6789
+Columba,0.5231,0.5897
+JDT,0.2658,0.4094
+Mozilla,0.1659,0.2560
+Platform,0.3196,0.4299
+PostgreSQL,0.5129,0.5853

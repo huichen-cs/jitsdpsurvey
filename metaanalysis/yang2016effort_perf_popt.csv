@@ -1,0 +1,16 @@
+#
+# Table 4 in Yang et al.~\cite{yang2016effort}
+#
+# 10 times 10-fold cross-validation: best su-
+# pervised model vs. unsupervised models
+#
+# Showing Popt (effort threshold free)
+#
+Project,EALR,NF,NUC,LT,AGE
+BUG,0.705,0.673,0.670,0.754,0.748
+COL,0.576,0.811,0.822,0.842,0.856
+JDT,0.511,0.716,0.679,0.781,0.747
+PLA,0.551,0.698,0.640,0.748,0.707
+MOZ,0.453,0.614,0.552,0.644,0.621
+POS,0.491,0.727,0.714,0.805,0.768
+

@@ -1,0 +1,30 @@
+#
+# Pascarella et al.~\cite{pascarella2019fine}
+#
+# Table -- 4 All commits
+# Results of the RQ2 considering all commits in the history of the subject
+# software systems.
+#
+# In addition, to have a unique value that synthesizes preci- sion and recall
+# we also measure the F-measure, i.e., the har- monic mean of precision and
+# recall: F −Measure = 2 ·P recision ·Recall P recision + Recall
+#
+# It is unclear how cost-effectiveness is defined.
+#
+# It is unclear where the data is balanced
+#
+# For this reason, we adopt a time-sensitive analysis where the defectiveness
+# of a commit c i is evaluated by a model trained using the data coming from
+# the previous three months of history of the system considered. 
+#
+Systems,Precision,Recall,F-measure,AUC-ROC,Cost-effectiveness
+Accumulo,71,66,69,82,16
+Angular-js,73,62,68,79,18
+Bugzilla,65,65,65,73,4
+Gerrit,69,62,65,72,8
+Gimp,61,59,60,69,16
+Hadoop,67,58,63,73,7
+JDeodorant,75,61,68,74,11
+Jetty,60,65,62,77,17
+JRuby,64,61,62,70,21
+OpenJPA,63,60,61,72,7
