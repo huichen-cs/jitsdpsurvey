@@ -73,28 +73,13 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Static Program Analysis Metrics 
 
+| Category         | Metric | Description                                                              |
+| ---------------- | ------ | ------------------------------------------------------------------------ | 
+| Program Analysis | SysWD  | Warning density of the project                                           |
+|                  | FSysWD | Cumulative difference between warning density of the file and the project|
+|                  | AuDWD  | Cumulative sum of the changes in warning density by the author           |
 
 
 
