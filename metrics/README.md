@@ -55,7 +55,19 @@
 
 ## Issue Report and Code Review Metrics  
 
-
+| Category       | Metric   | Description               |
+| -------------- | -------- | ------------------------- | 
+| Thread Focus   | COMMEXP  | Commenter experience      |
+|                | RPTEXP   | Reporter experience       |
+|                | RVWEXP   | Reviewer experience       |
+|                | PATCHNUM | Number of patch revisions |
+|                | NINLCMMT | Number of inline comments |
+| Thread Length  | NUMCMMT  | Number of comments        |
+|                | LENCMMT  | Length of comments        |
+| Thread Time    | RVWTIME  | Review time               |
+|                | FIXTIME  | Fix time                  |
+|                | DISCLAG  | Average discussion lag    |
+| Sentiment      | CMMTSENT | Comment sentiment         |
 
 
 
