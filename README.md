@@ -1,4 +1,4 @@
-# Online Supplements of JIT-SDP Survey 
+# Online Supplementaries of JIT-SDP Survey 
 
 1. [JIT-SDP Articles](./papers/)
 
