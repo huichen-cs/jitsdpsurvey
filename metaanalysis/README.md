@@ -24,7 +24,7 @@ Table 1: Summary of Evaluation Strategies in JIT-SDP Researches (paper citing nu
 |                            | leave-one-out                                                | Catolino et al. [13]       |
 | Bootstrap validation       | out-of-sample                                                | Duan et al. [1], Fan et al. [15]       |
 | Time-wise cross-validation | 10-fold                                                      | Yang et al. [32], Liu et al. [26], Chen et al. [23], Zhang et al. [20], Huang et al. [18] Li et al. [12] Fu and Menzies [24], Huang et al. [25]       |
-|                            | time-aware validation, 11 groups, (same as Yang et al. [103] | 11 groups in Yan et al. [10]      |
+|                            | time-aware validation, 11 groups, (same as Yang et al. [32] | 11 groups in Yan et al. [10]      |
 |                            | time-sensitive analysis                                      | Pascarella et al. [17], Tan et al. [34], Trautsch et al. [7], Kondo et al. [14]     |
 | Cross-project prediction   | 10-fold                                                      | Yang et al. [32], Liu et al. [26], Chen et al. [23] Huang et al. [18]      |
 | SDLC                       | short-term/period                                            |       |
