@@ -3,7 +3,7 @@
 
 
 | No.| Paper                                                                                                         | Author              | Year | Replication Package                                 | Remark         |
-| -- | --------------------------------------------------------------------------------------------------------------|---------------------|----------------------------------------------------------- | -------------- |
+| -- | --------------------------------------------------------------------------------------------------------------|---------------------|------|---------------------------------------------------- | -------------- |
 | 1  | The Impact of Duplicate Changes on Just-in-Time Defect Prediction                                             | Duan et al.         | 2021 | https://github.com/deref007/Duplicate-change-TR     |                |
 | 2  | CC2Vec: Distributed representations of code changes                                                           | Hoang et al.        | 2020 | https://github.com/CC2Vec/CC2Vec                    |                |
 | 3  | Static source code metrics and static analysis warnings for fine-grained just-in-time defect prediction       | Trautsch et al.     | 2020 | https://doi.org/10.5281/zenodo.3974204              |                |
@@ -21,6 +21,7 @@
 | 15 | Supervised vs unsupervised models: A holistic look at effort-aware just-in-time defect prediction             | Huang et al.        | 2017 | https://doi.org/10.5281/zenodo.836352               |                |
 | 16 | Effort-aware just-in-time defect prediction: simple unsupervised models could be better than supervised models| Yang et al.         | 2016 | http://ise.nju.edu.cn/yangyibiao/jit.html           | inaccessible   |
 | 17 | A large-scale empirical study of just-in-time quality assurance                                               | Kamei et al.        | 2012 | http://research.cs.queensu.ca/~kamei/jittse/jit.zip |                |
+
 
 
 
