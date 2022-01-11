@@ -1,3 +1,4 @@
+import pandas as pd
 import numpy as np
 import sys
 
@@ -13,6 +14,32 @@ from plotfan2019impactf1 import \
         load_f1_list as load_fan2019impact_f1_list
 from plotduan2021impactf1 import \
         load_f1_list as load_duan2021impact_f1_list
+from plotzhu2018empiricalf1 import \
+        load_f1_list as load_zhu2018empirical_f1_list
+
+def get_avrg_zhu2018empirical_f1():
+    f1_avrg_list = []
+    dratio_list = []
+
+    p_list,n_list = load_zhu2018empirical_f1_list()
+    proj_list = p_list[0]['Project'].unique().tolist()
+
+    for p in p_list:
+        assert(proj_list == p['Project'].unique().tolist())
+
+    for proj in proj_list:
+        df_proj_list = []
+        for p,n in zip(p_list, n_list):
+            df_proj_list.append(p[p['Project'] == proj])
+        df_proj = pd.concat(df_proj_list)
+        f1_avrg_list.append(df_proj['f1'].mean())
+        dratio = df_proj['dratio'].unique()
+        assert(len(dratio) == 1)
+        dratio_list.append(dratio[0])
+
+
+    return f1_avrg_list,dratio_list
+    
 
 def get_avrg_jian2013personalized_f1():
     perf_list,name_list = load_jiang2013personalized_perf_list()
@@ -75,26 +102,31 @@ if __name__ == '__main__':
 
     f1_jian13,dr_jian13 = get_avrg_jian2013personalized_f1()
     f1_tourani16,dr_tourani16 = get_avrg_tourani2016impact_f1()
+    f1_zhu2018,dr_zhu2018 = get_avrg_zhu2018empirical_f1()
     f1_pascarella,dr_pascarella = get_avrg_pascarella_f1()
     f1_fan2019,dr_fan2019 = get_avrg_fan2019impact_f1()
     f1_duan2021,dr_duan2021 = get_avrg_duan2021impact_f1()
 
     figsize=(4*5/4, 2.5*5/4)
-    marker_list = ['x', '^', 's', 'o', 'v']
-    line_styles = ['dotted', 'dashed', 'dashdot', (0, (3, 1, 1, 1)), (0, (3, 5, 1, 5, 1, 5))]
+    marker_list = ['x', '^', 'v', 's', 'o', 'v']
+    # line_styles = ['dotted', 'dashed', 'dashdot', (0, (3, 1, 1, 1)), (0, (3, 5, 1, 5, 1, 5))]
+    line_styles = ['dotted', 'dashed', (0, (3, 1, 1, 1, 1, 1)), 'dashdot', (0, (3, 1, 1, 1)), (0, (3, 5, 1, 5, 1, 5))]
     fig = plt.figure(figsize=figsize)
     for i,(x,y) in enumerate(zip([dr_jian13\
             , dr_tourani16\
+            , dr_zhu2018\
             , dr_pascarella\
             , dr_fan2019\
             , dr_duan2021],[f1_jian13\
             , f1_tourani16\
+            , f1_zhu2018\
             , f1_pascarella\
             , f1_fan2019\
             , f1_duan2021])):
         plt.plot(x, y, marker=marker_list[i], fillstyle='none'\
                 , linestyle=line_styles[i], color='black')
-    plt.legend(['Jiang13(PCC+)', 'Tourani16', 'Pascarella119', 'Fan19', 'Duan21'])
+    # plt.legend(['Jiang13(PCC+)', 'Tourani16', 'Pascarella119', 'Fan19', 'Duan21'])
+    plt.legend(['Jiang13(PCC+)', 'Tourani16', 'Zhu18', 'Pascarella119', 'Fan19', 'Duan21'])
     plt.xlabel('Defect Ratio')
     plt.ylabel('F1')
     plt.tight_layout()

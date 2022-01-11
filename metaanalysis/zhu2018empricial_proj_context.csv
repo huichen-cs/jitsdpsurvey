@@ -1,0 +1,18 @@
+#
+# An empirical study of software change classification with
+# imbalance data-handling methods
+# Xiaoyan Zhu1 Binbin Niu1 E. JamesWhitehead Jr.2 Zhongbin Sun1
+#
+# TABLE 2 Overview of the examined projects
+#
+Project,NumTotalCommit,NumSelectedCommit,StartCommitId,SelectedPeriod,NumTotalChange,NumSelectedChange,NumBuggyChange,PercentBuggy,NumTotalFeatures,NumUsedFeatures
+Lucene,5301,500,1001,2004.05.11-2005.02.16,35736,653,158,24.2,8307,89
+Tomcat,19077,500,1001,2007.01.28-2007.07.31,60472,698,202,28.9,16891,47
+jEdit,7592,500,1001,2002.08.12-2003.03.22,39485,2026,620,30.6,11862,59
+Ant,15433,500,1001,2001.01.31-2001.05.23,46459,585,140,23.9,10589,61
+Synapse,9804,300,1001,2006.02.22-2006.07.05,69176,1931,743,38.5,9512,34
+Voldemort,4266,300,501,2009.08.18-2009.11.20,29615,519,151,29.1,6614,19
+iTextpdf,4215,300,501,2014.02.23-2015.08.19,32596,1167,188,16.1,24568,43
+Buck,11417,300,1001,2014.02.14-2014.04.03,103545,1232,185,15.0,18985,110
+Flink,12203,300,1001,2011.08.24-2014.10.25,134386,2699,546,20.2,20903,48
+Hadoop,50209,300,5501,2009.02.10-2009.03.14,400961,1864,243,13.0,35213,44

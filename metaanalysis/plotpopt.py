@@ -13,11 +13,14 @@ def main(argv):
         , 'Yang16(LT,AGE)'
         , 'Liu17(CCUM)'
         , 'Chen18(MULTI)'
-        , 'Li20(EATT)']
+        , 'Qiao19(FCNN)'
+        , 'Li20(EATT)'
+        , 'Yang20(DEJIT)'
+        ]
     data,labels = sort_by_median(data,labels,highlighted)
     plot_violin(data, 
             labels=labels, 
-            figsize=(7*6/12, 4),
+            figsize=(7*8/15, 4),
             yname='$P_{opt}$',
             ylim=(0.,1.0),
             xlabelrotation=45,

@@ -1,0 +1,17 @@
+#
+# Qiao and Wang~\cite{qiao2019effort}
+#
+# Effort-aware and just-in-time defect
+# prediction with neural network
+# Lei Qiao, Yan Wang
+#
+# Table 3 Recall of the approaches.
+#
+Project,EALR,LT,CBS,OurApproach
+Bugzilla,37.0,49.5,56.2,75.4
+Columba,39.9,62.0,52.6,78.3
+Eclipse JDT,20.1,57.4,54.8,72.7
+Eclipse Platform,25.9,50.9,61.0,73.7
+Mozilla,14.1,37.5,43.3,55.0
+PostgresSQL,24.3,54.2,49.4,68.5
+# Average,26.9,51.9,53.1,69.6

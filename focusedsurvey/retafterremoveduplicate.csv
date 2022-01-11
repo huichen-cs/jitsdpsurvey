@@ -1,0 +1,763 @@
+,0
+0,scm: supply chain management
+1,"uncertainty analysis and evaluation of a complex, multi-specific weed dynamics model with diverse and incomplete data sets"
+2,a bayesian network incorporating observation error to predict phosphorus and chlorophyll a in saginaw bay
+3,strategy
+4,on the assessment of software defect prediction models via roc curves
+5,markov and multifractal wavelet models for wireless mac-to-mac channels
+6,improving storage system availability with d-graid
+7,prediction-based resource allocation for multimedia traffic over high-speed wireless networks
+8,assessment of the different sources of uncertainty in a swat model of the river senne (belgium)
+9,a scenario-based simulation framework of on- and off-site construction logistics
+10,continuous test suite failure prediction
+11,an integrated framework for automatic ontology learning from unstructured repair text data for effective fault detection and isolation in automotive domain
+12,getting started with azure security center
+13,an automated approach to estimating code coverage measures via execution logs
+14,applying hierarchical task analysis to medication administration errors
+15,a parallel spatial data analysis infrastructure for the cloud
+16,architectural prototyping in industrial practice
+17,effort-aware just-in-time bug prediction for mobile apps via cross-triplet deep feature embedding
+18,"multi-level transaction management for complex objects: implementation, performance, parallelism"
+19,machine learning in mental health: a systematic review of the hci literature to support the development of effective and implementable ml systems
+20,factors that motivate software engineering teams: a four country empirical study
+21,philosophies and technologies for ambient aware devices in wearable computing grids
+22,privileged account management implementation
+23,context: an industry 4.0 dataset of contextual faults in a smart factory
+24,"sector-specific information infrastructure issues in the oil, gas, and petrochemical sector"
+25,determinants of digitalization and digital divide in sub-saharan african economies: a spatial durbin analysis
+26,hybrid mobile edge computing: unleashing the full potential of edge computing in mobile device use cases
+27,practicing judo: java under dynamic optimizations
+28,precision farming model to increase the production of exportable blueberries by implementing an adapting-to-change approach and risk assessment in agribusinesses in peru's coastal regions
+29,static source code metrics and static analysis warnings for fine-grained just-in-time defect prediction
+30,attack graph-based assessment of exploitability risks in automotive on-board networks
+31,the effect of ambiguous prior knowledge on bayesian model parameter inference and prediction
+32,high-confidence compositional reliability assessment of soa-based systems using machine learning techniques
+33,the rise of android code smells: who is to blame?
+34,security code smells in android icc
+35,lightweight detection of node presence in manets
+36,a systematic map on verification and validation of emergent behavior in software engineering research
+37,a distributed fault identification protocol for wireless and mobile ad hoc networks
+38,effort-aware just-in-time defect prediction: simple unsupervised models could be better than supervised models
+39,a model library for simulation and benchmarking of integrated urban wastewater systems
+40,cold-start software analytics
+41,risk analysis of catastrophes using experts' judgements: an empirical study on risk analysis of major civil aircraft accidents in europe
+42,a differential evolution-based approach for effort-aware just-in-time software defect prediction
+43,manage risk in the language of business
+44,simlean: utilising simulation in the implementation of lean in healthcare
+45,test cases selection from sdl specifications
+46,a multi-agent scheduling model for maximizing agent satisfaction
+47,parameter estimation and uncertainty analysis for a watershed model
+48,assessing behavior stage progression from social media data
+49,enhancing regional digital preparedness on natural hazards to safeguard business resilience in the asia-pacific
+50,ubl: unsupervised behavior learning for predicting performance anomalies in virtualized cloud systems
+51,individual differences in internet usage motives
+52,practical security aspects of the internet of things
+53,an analysis of the most cited articles in software engineering journals - 2000
+54,development and application of a human error identification tool for air traffic control
+55,a framework for predicting endemic cholera using satellite derived environmental determinants
+56,"a review of system modeling, assessment and operational optimization for integrated energy systems"
+57,the law of unintended consequences: the case of external subgoal support
+58,e
+59,architecture for digital spare-parts library: use of additive layer manufacturing in the petroleum industry
+60,information needs for integration decisions in the release process of large-scale parallel development
+61,a data mining framework based on boundary-points for gene selection from dna-microarrays: pancreatic ductal adenocarcinoma as a case study
+62,mining software defects: should we consider affected releases?
+63,exponential smoothing models: means and variances for lead-time demand
+64,commits as a basis for api misuse detection
+65,fault diagnosis architecture for skinny family of block ciphers
+66,unsupervised deep bug report summarization
+67,lean management effects - an empirical evidence from machine building industries in europe
+68,ideological foundation
+69,output-based intermediate representation for translation of test-pattern program
+70,dimensions of cybersecurity risk management
+71,intelligent ip retrieval driven by application requirements
+72,bisecting commits and modeling commit risk during testing
+73,on the time-based conclusion stability of cross-project defect prediction models
+74,encyclopedia of gis
+75,a reference architecture for iot-enabled dynamic planning in smart logistics
+76,the framework of intelligent vehicles
+77,"pre- and co-seismic ground deformations of the 1999 chi-chi, taiwan earthquake, measured with sar interferometry"
+78,"integrated bayesian multi-model approach to quantify input, parameter and conceptual model structure uncertainty in groundwater modeling"
+79,do different cross-project defect prediction methods identify the same defective modules?
+80,a problem in hydrological model calibration in the case of averaged flux input and flux output
+81,curriculum guidelines for undergraduate degree programs in software engineering
+82,boosting crash-inducing change localization with rank-performance-based feature subset selection
+83,an investigation of cross-project learning in online just-in-time software defect prediction
+84,"a highly flexible, parallel virtual machine: design and experience of ildjit"
+85,automatically learning semantic features for defect prediction
+86,cross-layer fault-space pruning for hardware-assisted fault injection
+87,understanding and supporting dependability as ordinary action
+88,a multivariate stochastic model for the generation of synthetic time series at multiple time scales reproducing long-term persistence
+89,"updating the phase 1 habitat map of wales, uk, using satellite sensor data"
+90,software project management in high maturity: a systematic literature mapping
+91,elimination of java array bounds checks in the presence of indirection
+92,on the need of functional priority and failure risk assessment to optimize human resource allocation in public service organizations
+93,how far we have progressed in the journey? an examination of cross-project defect prediction
+94,integrated neurofuzzy-jitl model and its application in batch processes
+95,"generating reliable meteorological data in mountainous areas with scarce presence of weather records: the performance of mtclim in interior british columbia, canada"
+96,relation between abductive and inductive types of nursing risk management
+97,"maintenance management characterization: process, framework and supporting pillars"
+98,effort-aware tri-training for semi-supervised just-in-time defect prediction
+99,technical research priorities for big data
+100,the impact of data merging on the interpretation of cross-project just-in-time defect models
+101,i/o dependent idempotence bugs in intermittent systems
+102,multi-robot collaboration for robust exploration
+103,measuring high and low priority defects on traditional and mobile open source software
+104,effective fault prediction model developed using least square support vector machine (lssvm)
+105,effort-aware just-in-time defect identification in practice: a case study at alibaba
+106,determining on-fault earthquake magnitude distributions from integer programming
+107,intellectual property aspects of web publishing
+108,detecting errors in pick and place procedures: detecting errors in multi-stage and sequence-constrained manual retrieve-assembly procedures
+109,practical and representative faultloads for large-scale software systems
+110,"oopsla 2016: proceedings of the 2016 acm sigplan international conference on object-oriented programming, systems, languages, and applications"
+111,predicting just-in-time software defects to reduce post-release quality costs in the maritime industry
+112,"different experiences, different effects: a longitudinal study of learning a computer program in a network environment"
+113,economics of site-specific nitrogen management for protein content in wheat
+114,resource-aware meta-computing
+115,predictable parallel performance: the bsp model
+116,a survival analysis of source files modified by new developers
+117,rosy: recovering processor and memory systems from hard errors
+118,a fault-tolerant onvif protocol extension for seamless surveillance video stream recording
+119,integration of risk and resilience into policy
+120,dynamic classifier selection: recent advances and perspectives
+121,error-aware gaze-based interfaces for robust mobile gaze interaction
+122,optimizing software-directed instruction replication for gpu error detection
+123,predicting and monitoring bug-proneness at the feature level
+124,continuous defect prediction: the idea and a related dataset
+125,predictors of customer perceived software quality
+126,studying just-in-time defect prediction using cross-project models
+127,review and insight on the behavioral aspects of cybersecurity
+128,desh: deep learning for system health prediction of lead times to failure in hpc
+129,resource utilization prediction: a proposal for information technology research
+130,on the relationship between comment update practices and software bugs
+131,analyzing privacy risk in human mobility data
+132,modelling land-use effects of future urbanization using cellular automata: an eastern danish case
+133,exploratory study on vineyards soil mapping by visible/near-infrared spectroscopy of grapevine leaves
+134,who views online extremism? individual attributes leading to exposure
+135,cssg: a cost-sensitive stacked generalization approach for software defect prediction
+136,studying high impact fix-inducing changes
+137,post golden jubilee year of the software journal: new research trends and strengthening advisory editorial team
+138,a systematic review and an expert survey on capabilities supporting multi product lines
+139,models of distributed secure computing
+140,line-impedance matching and signal conditioning capabilities for high-speed feed-forward voltage-mode transmit drivers
+141,flexible software profiling of gpu architectures
+142,the impact of context metrics on just-in-time defect prediction
+143,on the role of structural holes in requirements identification: an exploratory study on open-source software development
+144,critical information infrastructure
+145,modelling water dynamics with dndc and daisy in a soil of the north china plain: a comparative study
+146,improving availability with recursive microreboots: a soft-state system case study
+147,compiler-directed lightweight checkpointing for fine-grained guaranteed soft error recovery
+148,chapter 5: security and management
+149,revisiting supervised and unsupervised models for effort-aware just-in-time defect prediction
+150,hidden markov modeling of error patterns and soft outputs for simulation of wideband cdma transmission systems
+151,towards trustworthy storage using ssds with proprietary ftl
+152,code churn: a neglected metric in effort-aware just-in-time defect prediction
+153,deep semantic feature learning for software defect prediction
+154,improving real-world vulnerability characterization with vulnerable slices
+155,stakeholder-centric analyses of simulated shipping port disruptions
+156,modeling avena fatua seedling emergence dynamics: an artificial neural network approach
+157,predicting water main failures: a bayesian model updating approach
+158,does socio-technical congruence have an effect on continuous integration build failures? an empirical study on 10 github projects
+159,associations between mobility and socio-economic indicators vary across the timeline of the covid-19 pandemic
+160,security provisioning in pervasive environments using multi-objective optimization
+161,enhancing just-in-time defect prediction using change request-based metrics
+162,"it's not a bug, it's a feature: how misclassification impacts bug prediction"
+163,cyber-physical simulation and optimal mitigation for shipping port operations
+164,web error classification and analysis for reliability improvement
+165,are fix-inducing changes a moving target? a longitudinal case study of just-in-time defect prediction
+166,bridging effort-aware prediction and strong classification: a just-in-time software defect prediction study
+167,effects of heterogeneity on bank efficiency scores
+168,"assessing the reliability, validity and acceptance of a classification scheme of usability problems (cup)"
+169,modeling a logistics pooling strategy for agri-food smes
+170,jr: flexible distributed programming in an extended java
+171,implications of emerging data mining
+172,noise and the mermin-ghz game
+173,hybrid functional link artificial neural network approach for predicting maintainability of object-oriented software
+174,omnibus outlier detection in sensor networks using windowed locality sensitive hashing
+175,how bugs are born: a model to identify how bugs are introduced in software components
+176,development processes and frameworks
+177,a comprehensive comparison of gpu implementations of cardiac electrophysiology models
+178,predicting risk of pre-release code changes with checkinmentor
+179,the abc of software engineering research
+180,what’s up with software metrics? – a preliminary mapping study
+181,designing a brand risk management process
+182,the crosscutting impact of the aosd brazilian research community
+183,assessing and optimizing the performance impact of the just-in-time configuration parameters - a case study on pypy
+184,robot/vision system calibrations in automated assembly
+185,emerging topics in mining software repositories
+186,forecasting sales of slow and fast moving inventories
+187,comparing simulation models for market risk stress testing
+188,data protection in ai services: a survey
+189,academic software engineering: what is and what could be? results of the first annual survey for international se programs
+190,just-in-time customer churn prediction in the telecommunication sector
+191,autocalibration in hydrologic modeling: using swat2005 in small-scale watersheds
+192,is bigger data better for defect prediction: examining the impact of data size on supervised and unsupervised defect prediction
+193,high performance numerical computing in java: language and compiler issues
+194,data-driven methods to improve baseflow prediction of a regional groundwater model
+195,specification of exception flow in software architectures
+196,improving cybersecurity hygiene through jit patching
+197,flexible watershed simulation with the raven hydrological modelling framework
+198,modeling vulnerability discovery process in apache and iis http servers
+199,bayesian network model for task effort estimation in agile software development
+200,"ground plane estimation, error analysis and applications"
+201,"an integrated 3d log processing optimization system for hardwood sawmills in central appalachia, usa"
+202,co-change patterns: a large scale empirical study
+203,characterization of implied scenarios as families of common behavior
+204,statistical analysis and performance evaluation of optical array receivers for deep-space optical communications under random tracking errors
+205,exploring the relationship of a file’s history and its fault-proneness: an empirical method and its application to open source programs
+206,a fault-tolerant dynamic scheduling method on hierarchical mobile edge cloud computing
+207,preemptive routing in ad hoc networks
+208,robustness analysis of personalised delivery rate computation for iv administered anesthetic
+209,empirical study in using version histories for change risk classification
+210,introducing policy-driven governance and service level failure mitigation in cloud service brokers: challenges ahead
+211,a mapping study on design-time quality attributes and metrics
+212,fault class prediction in unsupervised learning using model-based clustering approach
+213,a cost-sensitive shared hidden layer autoencoder for cross-project defect prediction
+214,predicting information technology project escalation: a neural network approach
+215,an empirical study on data sampling for just-in-time defect prediction
+216,effective enhancement of loop versioning in java
+217,"markov chain monte carlo simulation using the dream software package: theory, concepts, and matlab implementation"
+218,making use of prognostics health management information for aerospace spare components logistics network optimisation
+219,computer vision
+220,effect of developer collaboration activity on software quality in two large scale projects
+221,software vulnerability analysis and discovery using machine-learning and data-mining techniques: a survey
+222,does class size matter? an in-depth assessment of the effect of class size in software defect prediction
+223,an empirical study of just-in-time defect prediction using cross-project models
+224,towards smartphone-based assessment of burnout
+225,software issues: risks and liabilities
+226,internal structure
+227,popl 2017: proceedings of the 44th acm sigplan symposium on principles of programming languages
+228,guest editorial: knowledge discovery for software development (kdsd)
+229,process metrics for software defect prediction in object-oriented programs
+230,accurate proactive adaptation of service-oriented systems
+231,pki as part of an integrated risk management strategy for web security
+232,research topics in spoken dialogue technology
+233,distributed self fault diagnosis algorithm for large scale wireless sensor networks using modified three sigma edit test
+234,integration of manufacturing system and product design with dmu
+235,toward proactive refactoring: an exploratory study on decaying modules
+236,design of the coarse-grained reconfigurable architecture dart with on-line error detection
+237,an industrial study on the risk of software changes
+238,an effective approach for gap-filling continental scale remotely sensed time-series
+239,a survey of challenges and opportunities in sensing and analytics for risk factors of cardiovascular disorders
+240,a comprehensive comparative study of clustering-based unsupervised defect prediction models
+241,development and implementation of a safety management system in a lean airline
+242,a language modeling framework for expert finding
+243,a study of applying deep learning-based weighted combinations to improve defect prediction accuracy and effectiveness
+244,"qa to aq part six: being agile at quality ""<i>enabling and infusing quality</i>"""
+245,location error estimation in wireless ad hoc networks
+246,near real-time coastal flood inundation simulation with uncertainty analysis and gpu acceleration in a web environment
+247,energy-aware fault-tolerant network-on-chips for addressing multiple traffic classes
+248,poster: bridging effort-aware prediction and strong classification - a just-in-time software defect prediction study
+249,a parallel island model for biogeography-based classification rule mining in julia
+250,quantifying requirements volatility effects
+251,a manifesto for future generation cloud computing: research directions for the next decade
+252,commit guru: analytics and risk prediction of software commits
+253,evaluating the 10% wind speed rule of thumb for estimating a wildfire's forward rate of spread against an extensive independent set of observations
+254,adjoint correction and bounding of error using lagrange form of truncation term
+255,a categorization scheme for software engineering conference papers and its application
+256,resettable vector clocks
+257,"vix derivatives, hedging and vol-of-vol risk"
+258,training data selection using ensemble dataset approach for software defect prediction
+259,case studies: synthesis of addm algorithms for real-world systems
+260,white-box cryptography: don’t forget about grey-box attacks
+261,"high occupancy resource allocation for grid and cloud systems, a study with drive"
+262,software defect prediction via cost-sensitive siamese parallel fully-connected neural networks
+263,corrective commit probability: a measure of the effort invested in bug fixing
+264,"play, attention, and learning: how do play and timing shape the development of attention and influence classroom learning?"
+265,"coding-error based defects in enterprise resource planning software: prevention, discovery, elimination and mitigation"
+266,darp: dynamically adaptable resilient pipeline design in microprocessors
+267,large-scale empirical studies on effort-aware security vulnerability prediction methods
+268,bug localization by learning to rank and represent bug inducing changes
+269,a reconfigurable and adaptive routing method for fault-tolerant mesh-based networks-on-chip
+270,error detector placement for soft computing applications
+271,practical risk management
+272,optimal strategies for selecting project portfolios using uncertain value estimates
+273,generalized estimation of productivity with multiple bad outputs: the importance of materials balance constraints
+274,explainable just-in-time bug prediction: are we there yet?
+275,reliable condition monitoring of telecommunication services with time-varying load characteristic
+276,sem: enterprise modeling of jsf global sustainment
+277,information behavior in the context of improving patient safety
+278,how does scrum conform to the regulatory requirements defined in mdevspice®?
+279,physical fault injection and side-channel attacks on mobile devices: a comprehensive analysis
+280,just-in-time defect prediction for android apps via imbalanced deep learning model
+281,iticse '15: proceedings of the 2015 acm conference on innovation and technology in computer science education
+282,determining the best isum (improved stock unearthing method) sampling point number to model long-term soil transport and micro-topographical changes in vineyards
+283,integrating manual and automatic risk assessment for risk-based testing
+284,the impact of human discussions on just-in-time quality assurance: an empirical study on openstack and eclipse
+285,data assimilation framework: linking an open data assimilation library (openda) to a widely adopted model interface (openmi)
+286,forecasting swiss exports using bayesian forecast reconciliation
+287,high-displacement flexible shape memory alloy actuator for soft wearable robots
+288,a hybrid anomaly detection framework in cloud computing using one-class and two-class support vector machines
+289,deep just-in-time defect prediction: how far are we?
+290,isitethical? board game: playing with speculative ethics of it innovation in disaster and risk management
+291,geo_bug: a geographical modelling environment for assessing the likelihood of pest development
+292,a preliminary evaluation of cpdp approaches on just-in-time software defect prediction
+293,functional high performance financial it
+294,cross project defect prediction via balanced distribution adaptation based transfer learning
+295,addressing problems with replicability and validity of repository mining studies through a smart data platform
+296,a just-in-time compiler for a reconfigurable testing platform
+297,how well just-in-time defect prediction techniques enhance software reliability?
+298,a study on the changes of dynamic feature code when fixing bugs: towards the benefits and costs of python dynamic features
+299,safer smart contract programming with scilla
+300,diagnosis of transient faults in quantised systems
+301,detecting anomalous computation with rnns on gpu-accelerated hpc machines
+302,evaluating network embedding techniques’ performances in software bug prediction
+303,threat poker: gamification of secure agile
+304,system development and integration methodology
+305,jaskier: a supporting software tool for continuous build outcome prediction practice
+306,deployment of a change-level software defect prediction solution into an industrial setting
+307,snoring: a noise in defect prediction datasets
+308,data assurance in opaque computations
+309,the effect of multiple developers on structural attributes: a study based on java software
+310,does being motivated to avoid procedural errors influence their systematicity?
+311,revisiting the impact of concept drift on just-in-time quality assurance
+312,empirical evaluation of hunk metrics as bug predictors
+313,assessment of agile maturity models: a multiple case study
+314,a failure index for hpc applications
+315,an effective semi-cross-validation model selection method for extreme learning machine with ridge regression
+316,versionized process based on non-volatile random-access memory for fine-grained fault tolerance
+317,reliability-aware garbage collection for hybrid hbm-dram memories
+318,studying the relationship between the usage of apis discussed in the crowd and post-release defects
+319,a stochastic multiscale model for electricity generation capacity expansion
+320,"integrative education model for resources and critical infrastructure protection based on risk assessment, resources valorization and threat ranking"
+321,generating knowledge for the identification of device failure causes and the prediction of the times-to-failure in u-healthcare environments
+322,a study of the subject-oriented approach for automation and process modeling of a service company
+323,engineering big data solutions
+324,low i/o intensity-aware partial gc scheduling to reduce long-tail latency in ssds
+325,information systems management
+326,using relative lines of code to guide automated test generation for python
+327,spatio-temporal uncertainty in spatial decision support systems: a case study of changing land availability for bioenergy crops in mozambique
+328,adaptive boosting of weak regressors for forecasting of crop production considering climatic variability: an empirical assessment
+329,an empirical study of ensemble techniques for software fault prediction
+330,organization and representation of patient safety data: current status and issues around generalizability and scalability
+331,fault-safe code motion for type-safe languages
+332,patchnet: a tool for deep patch classification
+333,ls-svm based substation circuit breakers maintenance scheduling optimization
+334,encyclopedia of big data technologies
+335,interactive feature extraction for diagnostic trouble codes in predictive maintenance: a case study from automotive domain
+336,highly-cited papers in software engineering: the top-100
+337,a distribution-free approach to estimating best response values with application to mutual fund performance modeling
+338,time series prediction algorithm for intelligent predictive maintenance
+339,automotive software engineering: a systematic mapping study
+340,unrizknow: an open electronic community of practice for information security professionals
+341,file-level defect prediction: unsupervised vs. supervised models
+342,on the testing resource allocation problem: research trends and perspectives
+343,a scoping study on the 25 years of research into software testing in brazil and an outlook on the future of the area
+344,creating components
+345,understanding the job requirements for collaboration technology support through a hybrid it-end user job classification model: the case of collaboration engineering and facilitation
+346,impacts of tei on smes
+347,optimal design of shewhart–lepage type schemes and its application in monitoring service quality
+348,automatic loop transformations and parallelization for java
+349,just-in-time bug prediction in mobile applications: the domain matters!
+350,progress on approaches to software defect prediction
+351,capa: the spirit of beaver against physical attacks
+352,information and knowledge economies
+353,online defect prediction for imbalanced data
+354,design for business innovation: linking the value chains of logistics service and cargo insurance companies by designing a collaborative service infrastructure
+355,financial time series prediction using artificial neural network based on levenberg-marquardt algorithm
+356,scripting .net using mondrian
+357,incremental learning for property price estimation using location-based services and open data
+358,types of software fault prediction
+359,adaptive system anomaly prediction for large-scale hosting infrastructures
+360,multisensor on-the-fly localization:: precision and reliability for applications
+361,a framework for uncertainty and risk analysis in total maximum daily load applications
+362,a bayesian sensitivity analysis applied to an agent-based model of bird population response to landscape change
+363,security and governance
+364,the multiple facets of software diversity: recent developments in year 2000 and beyond
+365,a spatio-temporal geostatistical approach to predicting pollution levels: the case of mono-nitrogen oxides in madrid
+366,a learning roadmap for digital lean manufacturing
+367,open trusted health informatics structure (othis)
+368,crowdsourcing user reviews to support the evolution of mobile apps
+369,ensemble strategies for a medical diagnostic decision support system: a breast cancer diagnosis application
+370,product graph-based higher order contextual similarities for inexact subgraph matching
+371,using code change types in an analogy-based classifier for short-term defect prediction
+372,a novel hybrid artificial intelligence approach for flood susceptibility assessment
+373,traffic management for cloud federation
+374,how has spi changed in times of agile development? results from a multi-method study
+375,"drastic: a run-time architecture for evolving, distributed, persistent systems"
+376,"prompt, a decision support system for opportunity-based preventive maintenance"
+377,weighted software metrics aggregation and its application to defect prediction
+378,"testing in the cloud: strategies, risks and benefits"
+379,a taxonomy of side channel attacks on critical infrastructures and relevant systems
+380,the use of spatial analytical techniques to explore patterns of fire incidence: a south wales case study
+381,semiparametric spatial effects kernel minimum squared error model for predicting housing sales prices
+382,poster: towards compiler-assisted taint tracking on the android runtime (art)
+383,establishing operational models for dynamic compilation in a simulation platform
+384,enforcing mobile security with location-aware role-based access control
+385,a multipurpose simulation platform for decision-making in construction management
+386,application of micro ct and computation modeling in bone tissue engineering
+387,a non-intrusive deep learning based diagnosis system for elevators
+388,simplified deep forest model based just-in-time defect prediction for android mobile apps
+389,personalised information retrieval: survey and classification
+390,pervasive computing technologies for healthcare
+391,selecting software reliability growth models and improving their predictive accuracy using historical projects data
+392,on the neural network approach in software reliability modeling
+393,evaluating representation learning of code changes for predicting patch correctness in program repair
+394,stitching images of dual-cameras onboard satellite
+395,toward a taxonomy of the unintentional discharge of firearms in law enforcement
+396,an exploration of the current state of information assurance education
+397,shift error detection in standardized exams
+398,spatial scale and product mix economies in u.s. banking with simultaneous spillover regimes
+399,"design, use and evaluation of p-fsefi: a parallel soft error fault injection framework for emulating soft errors in parallel applications"
+400,cross-validation based k nearest neighbor imputation for software quality datasets: an empirical study
+401,efficient leave-one-out cross-validation-based regularized extreme learning machine
+402,risks to the public
+403,techniques for supporting dynamic and adaptive workflow
+404,methodologies for quantifying (re-)randomization security and timing under jit-rop
+405,jitbot: an explainable just-in-time defect prediction bot
+406,investigations about replication of empirical studies in software engineering: a systematic mapping study
+407,"remotely sensed biomass over steep slopes: an evaluation among successional stands of the atlantic forest, brazil"
+408,software is data too
+409,"lctes 2016: proceedings of the 17th acm sigplan/sigbed conference on languages, compilers, tools, and theory for embedded systems"
+410,chi ea '21: extended abstracts of the 2021 chi conference on human factors in computing systems
+411,exhaustif®: a fault injection tool for distributed heterogeneous embedded systems
+412,discovering patterns for prognostics: a case study in prognostics of train wheels
+413,instruction scheduling in the presence of java’s runtime exceptions
+414,teaching and computers
+415,equity arbitrage
+416,robust strategies for natural gas procurement
+417,encyclopedia of database systems
+418,a multi-lake comparative analysis of the general lake model (glm): stress-testing across a global observatory network
+419,study of effect of seismic displacements on landslide susceptibility zonation (lsz) in garhwal himalayan region of india using gis and remote sensing techniques
+420,empirical study on refactoring large-scale industrial systems and its effects on maintainability
+421,fse 2016: proceedings of the 2016 24th acm sigsoft international symposium on foundations of software engineering
+422,just-in-time software defect prediction using deep temporal convolutional networks
+423,a markov model for fault-tolerant task parallel computations
+424,scheduling in overlaid star all-photonic networks with large propagation delays
+425,the artificial immune ecosystem: a bio-inspired meta-algorithm for boosting time series anomaly detection with expert input
+426,framework for extreme imbalance classification: swim—sampling with the majority class
+427,exploring the interaction between java's implicitly thrown exceptions and instruction scheduling
+428,news
+429,energy-efficient wireless networking for multimedia applications
+430,a state of the art review of intelligent scheduling
+431,"comparison of object-oriented and robot programming activities: the effects of programming modality on student achievement, abstraction, problem solving, and motivation"
+432,snowflock: rapid virtual machine cloning for cloud computing
+433,fpga-based fault injection into switch-level models
+434,adaptive spelling error correction models for learner english
+435,introduction to part iii: markers to mhealth predictors
+436,the epistemology of computer security
+437,state of the art-intense review on artificial intelligence systems application in process planning and manufacturing
+438,the secret life of test smells - an empirical study on test smell evolution and maintenance
+439,"formalizing the safety of java, the java virtual machine, and java card"
+440,effects of financial holding company act on bank efficiency and productivity in taiwan
+441,bridging fault localisation and defect prediction
+442,the ultimate control flow transfer in a java based smart card
+443,analysis of coupling evolution on open source systems
+444,estimating the number of remaining links in traceability recovery
+445,hci requirements for transparency and accountability tools for cloud service chains
+446,a large-scale empirical study of just-in-time quality assurance
+447,editor’s note: special section on software maintenance and evolution
+448,an empirical examination of the impact of bias on just-in-time defect prediction
+449,changelocator: locate crash-inducing changes based on crash reports
+450,a generic data-driven technique for forecasting of reservoir inflow: application for hydropower maximization
+451,global optimal real-time control of the quebec urban drainage system
+452,a systematic review on the code smell effect
+453,forecasting agricultural output with an improved grey forecasting model based on the genetic algorithm
+454,"strategy development, risk assessment and resource management: some issues related to the implementation of the verification regime of the chemical weapons convention"
+455,lessons learned from using a deep tree-based model for software defect prediction in practice
+456,genomic and functional techniques to mine the microbiome for novel antimicrobials and antimicrobial resistance genes
+457,predictive models of safety based on audit findings: part 2: measurement of model validity
+458,smart car space: an application
+459,application of a hybrid process simulation model to a software development project
+460,verifying the stability and sensitivity of learning analytics based prediction models: an extended case study
+461,early warning system potential for single sourcing risk mitigation
+462,on the learning patterns and adaptive behavior of terrorist organizations
+463,feasibility study of monitoring deterioration of outpatients using multimodal data collected by wearables
+464,a performance model for x10 applications: what's going on under the hood?
+465,quantifying uncertainties in earth observation-based ecosystem service assessments
+466,"a spatial productivity index in the presence of efficiency spillovers: evidence for u.s. banks, 1992–2015"
+467,fault-aware grid scheduling using performance prediction by workload modeling
+468,just-in-time detection of protection-impacting changes on wordpress and mediawiki
+469,handbook of smart cities
+470,exploiting domain ontologies and intelligent agents: an automated network management support paradigm
+471,llvm: a compilation framework for lifelong program analysis &amp; transformation
+472,the ghost commit problem when identifying fix-inducing changes: an empirical study of apache projects
+473,evaluating error associated with lidar-derived dem interpolation
+474,"towards a generic resilience management, quantification and development process: general definitions, requirements, methods, techniques and measures, and case studies"
+475,generating time-series of dry weather loads to sewers
+476,deep learning for software defect prediction: a survey
+477,an empirical study on the use of szz for identifying inducing changes of non-functional bugs
+478,"algorithm-based fault tolerance for dense matrix factorizations, multiple failures and accuracy"
+479,defect detection in ct scans of cast aluminum parts: a machine vision perspective
+480,from hillslopes to watersheds: variability in model outcomes with the usle
+481,characterizing android apps’ behavior for effective detection of malapps at large scale
+482,"modelling heat, water and carbon fluxes in mown grassland under multi-objective and multi-criteria constraints"
+483,"light vehicle fuelling errors in the uk: the nature of the problem, its consequences and prevention"
+484,a new method for analysing the interrelationship between performance indicators with an application to agrometeorological models
+485,statistical models vs. expert estimation for fault prediction in modified code – an industrial case study
+486,szz unleashed: an open implementation of the szz algorithm - featuring example usage in a study of just-in-time bug prediction for the jenkins project
+487,assessing personalized software defect predictors
+488,dependability as ordinary action
+489,fractionated software for networked cyber-physical systems: research directions and long-term vision
+490,surface reconstruction and landslide displacement measurements with pléiades satellite images
+491,recursive robust least squares support vector regression based on maximum correntropy criterion
+492,predicting software defects with explainable machine learning
+493,predicting pull request completion time: a case study on large scale cloud services
+494,modelling the user
+495,towards just-in-time suggestions for log changes
+496,guest editorial: mining software repositories
+497,vuldigger: a just-in-time and cost-aware tool for digging vulnerability-contributing changes
+498,"macroeconomic indicators alone can predict the monthly closing price of major u.s. indices: insights from artificial intelligence, time-series analysis and hybrid models"
+499,high-performance java
+500,assessgrid strategies for provider ranking mechanisms in risk–aware grid systems
+501,tailoring interface for spanish language: a case study with chica system
+502,"parameter identification of the stics crop model, using an accelerated formal mcmc approach"
+503,rem in agile projects
+504,a software framework for construction of process-based stochastic spatio-temporal models and data assimilation
+505,cregit: token-level blame information in git version control repositories
+506,randomized data-gathering protocol for time-driven sensor networks
+507,predicting defects with latent and semantic features from commit logs in an industrial setting
+508,"jitline: a simpler, better, faster, finer-grained just-in-time defect prediction"
+509,artificial intelligence approach for the prediction of robusta coffee yield using soil fertility properties
+510,comparing spatial metrics that quantify urban form
+511,simplify and rationalize it and security
+512,ict and socio-economic development: evidence from a spatial panel data analysis in china
+513,flexible scheme for reconfiguring 2d mesh-connected vlsi subarrays under row and column rerouting
+514,the economic effects of domestic search engines on the development of the online advertising market
+515,deep learning for just-in-time defect prediction
+516,class imbalance evolution and verification latency in just-in-time software defect prediction
+517,a cluster based feature selection method for cross-project software defect prediction
+518,the anticipatory approach: definitions and taxonomies
+519,proactive byzantine quorum systems
+520,balancing the trade-off between accuracy and interpretability in software defect prediction
+521,automatic feature exploration and an application in defect prediction
+522,performance of one-dimensional hydrodynamic lake models during short-term extreme weather events
+523,feature-oriented defect prediction
+524,pragmatic prioritization of software quality assurance efforts
+525,"home, safehome: smart home reliability with visibility and atomicity"
+526,achieving agility in it project portfolios – a systematic literature review
+527,automatic grading of programming assignments: an approach based on formal semantics
+528,using modeling and simulation as a framework for testing new solutions devoted to securing global flows of goods and people
+529,recovering test-to-code traceability using slicing and textual analysis
+530,collaboration strength metrics and analyses on github
+531,software development bug tracking: “tool isn’t user friendly” or “user isn’t process friendly”
+532,an econometric approach for evaluating the linkages between broadband and knowledge intensive firms
+533,data mining for software engineering and humans in the loop
+534,two-stage visual navigation by deep neural networks and multi-goal reinforcement learning
+535,a spatially distributed flash flood forecasting model
+536,a bibliometric assessment of software engineering scholars and institutions (2010–2017)
+537,three schemes for wireless coded broadcast to heterogeneous users
+538,integrating a general bayesian network with multi-agent simulation to optimize supply chain management
+539,table of contents
+540,team up: cooperative memory management in embedded systems
+541,a conceptual framework for stage configuration
+542,model development of a bayesian belief network for managing inundation events for wetland fish
+543,information infrastructure risk prediction through platform vulnerability analysis
+544,approaching runtime trust assurance in open adaptive systems
+545,perceptions of built environment and health outcomes for older chinese in beijing: a big data approach with street view images and deep learning technique
+546,darp-mp: dynamically adaptable resilient pipeline design in multicore processors
+547,particle filtering-based methods for time to failure estimation with a real-world prognostic application
+548,the role and value of replication in empirical software engineering results
+549,effort-oriented methods and tools for software development and maintenance for mobile apps
+550,"frontmatter (toc, letters, election results, software reliability resources!, computing curricula 2004 and the software engineering volume se2004, software reuse research, icse 2005 forward)"
+551,an implementation of just-in-time fault-prone prediction technique using text classifier
+552,evaluating the impact of falsely detected performance bug-inducing changes in jit models
+553,session scribe notes for twenty-first acm symposium on operating systems principles
+554,subglacial water presence classification from polar radar data
+555,improving tcp performance in integrated wireless communications networks
+556,quick remedy commits and their impact on mining software repositories
+557,workflow modeling in critical care: piecing together your own puzzle
+558,within-project and cross-project just-in-time defect prediction based on denoising autoencoder and convolutional neural network
+559,the relation of test-related factors to software quality: a case study on apache systems
+560,high-impact bug report identification with imbalanced learning strategies
+561,ml-supported identification and prioritization of threats in the ovvl threat modelling tool
+562,enhancing data stream predictions with reliability estimators and explanation
+563,curved patch mapping and tracking for irregular terrain modeling: application to bipedal robot foot placement
+564,the relationship between commit message detail and defect proneness in java projects on github
+565,on the need of preserving order of data when validating within-project defect classifiers
+566,improved lithology prediction in channelized reservoirs by integrating stratigraphic forward modelling: towards improved model calibration in a case study of the holocene rhine-meuse fluvio-deltaic system
+567,[journal first] are fix-inducing changes a moving target?: a longitudinal case study of just-in-time defect prediction
+568,disentangling environmental and economic contributions to hydro-economic model output uncertainty: an example in the context of land-use change impact assessment
+569,security during application development: an application security expert perspective
+570,tstss: a two-stage training subset selection framework for cross version defect prediction
+571,a framework for integrated proactive maintenance decision making and supplier selection
+572,popl '16: proceedings of the 43rd annual acm sigplan-sigact symposium on principles of programming languages
+573,cscw '17: proceedings of the 2017 acm conference on computer supported cooperative work and social computing
+574,bonvoision: leveraging spatial data smoothness for recovery from memory soft errors
+575,research on software risk assessment model based on ahp- fuzzy comprehensive evaluation
+576,marmot: an optimizing compiler for java
+577,optimal expansion paths for hospitals of different types: viewpoint of scope economies and evidence from chinese hospitals
+578,edo: exception-directed optimization in java
+579,defect prediction model of static code features for cross-company and cross-project software
+580,an approach to assess risks related to information system in supply chain
+581,depspace: a byzantine fault-tolerant coordination service
+582,adaptive request batching for byzantine replication
+583,development of a procedure model for business process oriented implementation of standard software
+584,transfer learning for cross-project change-proneness prediction in object-oriented software systems: a feasibility analysis
+585,bubble-sensing: binding sensing tasks to the physical world
+586,siggraph '18: acm siggraph 2018 courses
+587,a machine-learning based ensemble method for anti-patterns detection
+588,do shareholders favor business analytics announcements?
+589,developing an amenity value calculator for urban forest landscapes
+590,pmu-trojan: on exploiting power management side channel for information leakage
+591,locus: locating bugs from software changes
+592,improvements to the calibration of a geographically weighted regression with parameter-specific distance metrics and bandwidths
+593,imnrfixer: a hybrid approach to alleviate class-imbalance problem for predicting the fixability of non-reproducible bugs
+594,a process framework combining safety and security in practice
+595,leveraging the defects life cycle to label affected versions and defective classes
+596,"camera orientation, calibration and inverse perspective with uncertainties: a bayesian method applied to area estimation from diverse photographs"
+597,aliasing in object oriented systems
+598,cost-sensitive transfer kernel canonical correlation analysis for heterogeneous defect prediction
+599,multi label text classification method based on co-occurrence latent semantic vector space
+600,continuous build outcome prediction: a small-n experiment in settings of a real software project
+601,implications of accelerated self-healing as a key design knob for cross-layer resilience
+602,evaluation studies of software testing research in brazil and in the world: a survey of two premier software engineering conferences
+603,digital society: a computing science prospective
+604,a survey on the moving target defense strategies: an architectural perspective
+605,generation of tlm testbenches using mutation testing
+606,comparing interpolation techniques for monthly rainfall mapping using multiple evaluation criteria and auxiliary data sources: a case study of sri lanka
+607,a preliminary study of the application of artificial neural networks to prediction of milk yield in dairy sheep
+608,workflow scheduling in cloud: a survey
+609,a compositional model for effort-aware just-in-time defect prediction on android apps
+610,on deterministic chaos in software reliability growth models
+611,leveraging fault localisation to enhance defect prediction
+612,a survey on spot pricing in cloud computing
+613,enabling a pervasive approach for intelligent decision support in critical health care
+614,a programming system for sensor-based scientific applications
+615,comprehensible software fault and effort prediction: a data mining approach
+616,searching for bellwether developers for cross-personalized defect prediction
+617,saml goes eclipse: combining model-based safety analysis and high-level editor support
+618,machine learning in bioinformatics: a brief survey and recommendations for practitioners
+619,snowflock: virtual machine cloning as a first-class cloud primitive
+620,a method of multi-perspective assessment of lean management
+621,exploring characteristic of visual management as lean toolbox in construction worksite of apartment house
+622,student and expert modelling for simulation-based training: a cost effective framework
+623,galileo: a simulation tool for leo satellite constellations
+624,user trust and understanding of explainable ai: exploring algorithm visualisations and user biases
+625,assessing the impact of timing errors on hpc applications
+626,an empirical study of crash-inducing commits in mozilla firefox
+627,protecting personal information in cloud computing
+628,predicting defective modules in different test phases
+629,"""energy is a finite resource"": designing technology to support individuals across fluctuating symptoms of depression"
+630,"evaluation of prediction capability, robustness, and sensitivity in non-linear landslide susceptibility models, guantánamo, cuba"
+631,advancing real-time flood prediction in large estuaries: iflood a fully coupled surge-wave automated web-based guidance system
+632,tackling class overlap and imbalance problems in software defect prediction
+633,“make it personal!” - gathering input from stakeholders for a learning analytics-supported learning design tool
+634,software defect prediction with imbalanced distribution by radius-synthetic minority over-sampling technique
+635,towards surgically-precise technical debt estimation: early results and research roadmap
+636,trail: a distance-sensitive sensor network service for distributed object tracking
+637,supervised vs unsupervised models: a holistic look at effort-aware just-in-time defect prediction
+638,the impact of mislabeled changes by szz on just-in-time defect prediction
+639,determinants of mutual fund underperformance: a bayesian stochastic frontier approach
+640,clever: combining code metrics with clone detection for just-in-time fault prevention and resolution in large industrial projects
+641,things that help out: designing smart wearables as partners in stress management
+642,a relative map approach to slam based on shift and rotation invariants
+643,process variability through automated late selection of fragments
+644,minimum payments that reward honest reputation feedback
+645,debug all your code: portable mixed-environment debugging
+646,encyclopedia of cryptography and security
+647,encyclopedia of education and information technologies
+648,sample privileged access management use cases
+649,cross-project just-in-time bug prediction for mobile apps: an empirical assessment
+650,operational analysis and basic queueing models
+651,current state of security
+652,flooding and recycling authorizations
+653,reliability-aware dynamic energy management in dependable embedded real-time systems
+654,collision-aware rate adaptation in multi-rate wlans: design and implementation
+655,the future(s) of social machines: the research agenda
+656,predicting node failures in an ultra-large-scale cloud computing platform: an aiops solution
+657,personalized defect prediction
+658,building reliable systems based on self-organizing multi-agent systems
+659,a concept for an it-supported integrated earnings and risk management to strengthen the resilience of companies in times of crisis
+660,ammonia: an approach for deriving project-specific bug patterns
+661,global scheduling based reliability-aware power management for multiprocessor real-time systems
+662,a framework for model-driven engineering of resilient software-controlled systems
+663,on the prediction of long-lived bugs: an analysis and comparative study using floss projects
+664,a long-term prediction approach based on long short-term memory neural networks with automatic parameter optimization by tree-structured parzen estimator and applied to time-series data of npp steam generators
+665,a replicated field intervention study evaluating the impact of a highly adjustable chair and office ergonomics training on visual symptoms
+666,integration of fiber optic cable diagnostics within aerospace transceivers
+667,self-repairable gals
+668,a diagnosis algorithm for extreme space compaction
+669,debugging aspect-enabled programs
+670,sigmod '15: proceedings of the 2015 acm sigmod international conference on management of data
+671,early life cycle software defect prediction: why? how?
+672,"history of computers, electronic commerce and agile methods"
+673,remote agent: to boldly go where no ai system has gone before
+674,safety case development - a practical guide
+675,watch out for extrinsic bugs! a case study of their impact in just-in-time bug prediction models on the openstack project
+676,bringing interactive process mining to health professionals: interactive data rodeos
+677,the prediction model for electrical power system using an improved hybrid optimization model
+678,digital manufacturing/industry 4.0
+679,toward an understanding of bug fix patterns
+680,an empirical study of software change classification with imbalance data-handling methods
+681,ldfr: learning deep feature representation for software defect prediction
+682,algorithm-based fault tolerance for dense matrix factorizations
+683,experiences and challenges of introducing risk-based testing in an industrial project
+684,flux-based vs. topology-based similarity of metabolic genes
+685,source code metrics: a systematic mapping study
+686,seeing our signals: combining location traces and web-based models for personal discovery
+687,the generalized earthquake-location (genloc) package: an earthquake-location library
+688,a replication study: just-in-time defect prediction with ensemble learning
+689,a sanctuary for mobile agents
+690,using passively collected sedentary behavior to predict hospital readmission
+691,case study 1: evolution of a legacy system
+692,potential rating indicators for cyberinsurance: an exploratory qualitative study
+693,source-level global optimizations for fine-grain distributed shared memory systems
+694,integration of social concerns in collaborative logistics and transportation networks
+695,traffic capacity analysis for shared access networks with qos objectives and uncertain demands
+696,it enabled risk management for taxation and customs: the case of aeo assessment in the netherlands
+697,change-enabled software systems
+698,ase 2016: proceedings of the 31st ieee/acm international conference on automated software engineering
+699,"impacts of tree and building shades on the urban heat island: combining remote sensing, 3d digital city and spatial regression approaches"
+700,quality in e-learning: a framework for promoting and assuring quality in virtual institutions
+701,an exploratory study of risk factors for implementing service-oriented is projects
+702,the impact of duplicate changes on just-in-time defect prediction
+703,uncertain data classification with additive kernel support vector machine
+704,deepjit: an end-to-end deep learning framework for just-in-time defect prediction
+705,screening heuristics for project gating systems
+706,towards just-in-time refactoring recommenders
+707,continuous software bug prediction
+708,an overview on fault diagnosis and nature-inspired optimal control of industrial process applications
+709,understanding social network site users’ privacy tool use
+710,the impact of automated feature selection techniques on the interpretation of defect models
+711,improving the quality of software by quantifying the code change metric and predicting the bugs
+712,experience report: investigating bug fixes in machine learning frameworks/libraries
+713,success factors for serious games to enhance learning: a systematic review
+714,revisiting unsupervised learning for defect prediction
+715,achieving high data reliability at low scrubbing cost via failure-aware scrubbing
+716,modular conceptual modelling approach and software for river hydraulic simulations
+717,"policy override in practice: model, evaluation, and decision support"
+718,how to keep your head above water while detecting errors
+719,complexity and performance of urban expansion models
+720,architecture-level hazard analysis using aadl
+721,efficient branch and bound on fpgas using work stealing and instance-specific designs
+722,"software metrics: successes, failures and new directions"
+723,"entangled footprints: understanding urban neighbourhoods by measuring distance, diversity, and direction of flows in singapore"
+724,combined classifier for cross-project defect prediction: an extended empirical study
+725,impact of earthquake source complexity and land elevation data resolution on tsunami hazard assessment and fatality estimation
+726,a novel modified undersampling (mus) technique for software defect prediction
+727,formal specification and verification of the pgvt algorithm
+728,"towards generic and middleware-independent support for replicated, distributed objects"
+729,stochastic simulation of large grids using free and public domain software
+730,a framework for design tradeoffs
+731,value-based argumentation for justifying compliance
+732,mining software repositories for comprehensible software fault prediction models
+733,"not all bugs are the same: understanding, characterizing, and classifying bug types"
+734,errors and error recovery
+735,failure-aware resource management for high-availability computing clusters with distributed virtual machines
+736,introduction to scrum and agile concepts
+737,using classification methods to reinforce the impact of social factors on software success
+738,interaction effects of race and gender in elementary cs attitudes: a validation and cross-sectional study
+739,modeling opportunities in mhealth cyber-physical systems
+740,iterative identification of fault-prone binaries using in-process metrics
+741,"using phase-type models to cost stroke patient care across health, social and community services"
+742,protecting the transportation sector from the negative impacts of climate change
+743,understanding and predicting the determinants of cloud computing adoption: a two staged hybrid sem - neural networks approach
+744,"jarvis, a hardware/software framework for resilient industry 4.0 systems"
+745,quality-related locally weighted soft sensing for non-stationary processes by a supervised bayesian network with latent variables
+746,systematic testing of an integrated systems model for coastal zone management using sensitivity and uncertainty analyses
+747,achieving dependability in service-oriented systems
+748,a study of exception handling and its dynamic optimization in java
+749,dp-share: privacy-preserving software defect prediction model sharing through differential privacy
+750,an appraisal of web-based simulation: whither we wander?
+751,the selection of appropriate spectrally bright pseudo-invariant ground targets for use in empirical line calibration of spot satellite imagery
+752,uncovering spatial productivity centers using asymmetric bidirectional spillovers
+753,does chronology matter in jit defect prediction? a partial replication study
+754,discrete event complex systems: scheduling with neural networks
+755,analysis of traffic hazard intensity: a spatial epidemiology case study of urban pedestrians
+756,surface heat assessment for developed environments: probabilistic urban temperature modeling
+757,"warning-introducing commits vs bug-introducing commits: a tool, statistical models, and a preliminary user study"
+758,combining arfima models and fuzzy time series for the forecast of long memory time series
+759,cc2vec: distributed representations of code changes
+760,overview of agile software development
+761,safety assurance of open adaptive systems – a survey

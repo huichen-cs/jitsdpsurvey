@@ -21,6 +21,65 @@ def parse_percent(s):
         print(matches.group(1))
         raise NotImplementedError('Cannot parse ' + s)
 
+
+
+# Zhu et al.~\shortcite{zhu2018empirical}
+def load_zhu2018empricial_f1():
+    f1_list = []
+
+    csv_fn = 'zhu2018empricial_perf_all.csv'
+    df = pd.read_csv(csv_fn, comment='#')
+    df_f1 = df[df['Measure'] == 'fMeasure-1']
+    for c in df_f1.columns.drop(['Project', 'Measure']):
+        f1_list.append(df_f1[c]/100.)
+
+    return pd.concat(f1_list).to_list(),'Zhu18'
+
+
+def load_yang2020differential_popt():
+    popt_list = []
+
+    csv_fn = 'yang2020differential_perf_popt.csv'
+    df = pd.read_csv(csv_fn, comment='#')
+    for c in ['DEJIT']:
+        popt_list.append(df[c])
+
+    return pd.concat(popt_list).to_list(), 'Yang20(DEJIT)'
+
+def load_yang2020differential_rec20():
+    rec20_list = []
+
+    csv_fn = 'yang2020differential_perf_rec20.csv'
+    df = pd.read_csv(csv_fn, comment='#')
+    for c in ['DEJIT']:
+        rec20_list.append(df[c])
+
+    return pd.concat(rec20_list).to_list(), 'Yang20(DEJIT)'
+
+
+# Qiao and Wang~\cite{qiao2019effort} 
+def load_qiao2019effort_popt():
+    popt_list = []
+
+    csv_fn = 'qiao2019effort_perf_popt.csv'
+    df = pd.read_csv(csv_fn, comment='#')
+    for c in ['OurApproach']:
+        popt_list.append(df[c]/100.)
+
+    return pd.concat(popt_list).to_list(), 'Qiao19(FCNN)'
+
+# Qiao and Wang~\cite{qiao2019effort} 
+def load_qiao2019effort_rec20():
+    rec20_list = []
+
+    csv_fn = 'qiao2019effort_perf_rec20.csv'
+    df = pd.read_csv(csv_fn, comment='#')
+    for c in ['OurApproach']:
+        rec20_list.append(df[c]/100.)
+
+    return pd.concat(rec20_list).to_list(), 'Qiao19(FCNN)'
+
+
 # Duan et al.~\cite{duan2021impact}
 def load_duan2021impact_f1():
     f1_list = []
@@ -499,6 +558,10 @@ def load_f1_data():
     f1_list.append(f1)
     label_list.append(label)
 
+    f1,label = load_zhu2018empricial_f1()
+    f1_list.append(f1)
+    label_list.append(label)
+
     f1,label = load_young2018replication_f1()
     f1_list.append(f1)
     label_list.append(label)
@@ -583,11 +646,19 @@ def load_rec20_data():
     rec20_list.append(rec20)
     label_list.append(label)
 
+    rec20,label = load_qiao2019effort_rec20()
+    rec20_list.append(rec20)
+    label_list.append(label)
+
     rec20,label = load_li2020effort_acc20()
     rec20_list.append(rec20)
     label_list.append(label)
 
     rec20,label = load_yan2020effort_rec20()
+    rec20_list.append(rec20)
+    label_list.append(label)
+
+    rec20,label = load_yang2020differential_rec20()
     rec20_list.append(rec20)
     label_list.append(label)
 
@@ -617,7 +688,15 @@ def load_popt_data():
     popt_list.append(popt)
     label_list.append(label)
 
+    popt,label = load_qiao2019effort_popt()
+    popt_list.append(popt)
+    label_list.append(label)
+
     popt,label = load_li2020effort_popt()
+    popt_list.append(popt)
+    label_list.append(label)
+
+    popt,label = load_yang2020differential_popt()
     popt_list.append(popt)
     label_list.append(label)
 

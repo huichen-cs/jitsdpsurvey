@@ -17,7 +17,10 @@ def main(argv):
         , 'Liu17(CCUM)'
         , 'Chen18(MULTI)'
         , 'Huang19(CBS+)'
-        , 'Li20(EATT)']
+        , 'Qiao19(FCNN)'
+        , 'Li20(EATT)'
+        , 'Yang20(DEJIT)'
+        ]
     data,labels = sort_by_median(data,labels,highlighted)
     plot_violin(data, 
             labels=labels, 
