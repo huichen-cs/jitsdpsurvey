@@ -18,7 +18,7 @@ https://github.com/huichen-cs/jitsdpsurvey/blob/main/focusedsurvey/retafterremov
 
 2-pass review result: https://github.com/huichen-cs/jitsdpsurvey/blob/main/focusedsurvey/jitsdp_cited_entries_dedup.xlsm
 
-snowball: [Snoball](./focusedsurvey/snowball/)
+[Snoball](./focusedsurvey/snowball/)
 
 Others: https://github.com/huichen-cs/jitsdpsurvey/blob/main/focusedsurvey/papers.xlsx
 
