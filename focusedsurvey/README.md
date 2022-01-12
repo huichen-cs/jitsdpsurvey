@@ -16,13 +16,8 @@ Remove duplicated papers:
 
 [Results after remove duplicate](./focusedsurvey/retafterremoveduplicate.csv)
 
-2-pass review result:
+2-pass review result: [2-pass review results(include 1st submission results)](./focusedsurvey/jitsdp_cited_entries_dedup.xlsm)
 
-[2-pass review results(include 1st submission results)](./focusedsurvey/jitsdp_cited_entries_dedup.xlsm)
+snowball: [Snoball](./focusedsurvey/snowball/)
 
-snowball:
-
-[Snoball](./focusedsurvey/snowball/)
-
-Others:
-[Others summaries](./focusedsurvey/papers.xlsx)
+Others: [Others summaries](./focusedsurvey/papers.xlsx)
