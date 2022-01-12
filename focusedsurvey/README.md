@@ -12,12 +12,13 @@ Digital libraries search results:
 
 Remove duplicated papers: 
 
-[Code for Remove duplicated papers](./focusedsurvey/deleteduplicate.ipynb)
+https://github.com/huichen-cs/jitsdpsurvey/blob/main/focusedsurvey/deleteduplicate.ipynb
 
-[Results after remove duplicate](./focusedsurvey/retafterremoveduplicate.csv)
+https://github.com/huichen-cs/jitsdpsurvey/blob/main/focusedsurvey/retafterremoveduplicate.csv
 
-2-pass review result: [2-pass review results(include 1st submission results)](./focusedsurvey/jitsdp_cited_entries_dedup.xlsm)
+2-pass review result: https://github.com/huichen-cs/jitsdpsurvey/blob/main/focusedsurvey/jitsdp_cited_entries_dedup.xlsm
 
 snowball: [Snoball](./focusedsurvey/snowball/)
 
-Others: [Others summaries](./focusedsurvey/papers.xlsx)
+Others: https://github.com/huichen-cs/jitsdpsurvey/blob/main/focusedsurvey/papers.xlsx
+
