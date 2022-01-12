@@ -1,8 +1,8 @@
 # Online Supplementaries of JIT-SDP Survey 
 
-1. [Focused-Survey](./focusedsurvey/)
+1. [Focused-Papers(Results and scripts for Section2 Methodology)](./focusedsurvey/)
 
-2. [Meta-Analysis-Data-Scripts-for-Section4](./metaanalysis/)
+2. [Meta-Analysis(Data and Scripts for Section4 analysis)](./metaanalysis/)
 
 
 
